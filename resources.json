@@ -24,6 +24,30 @@
         "description": "Application options for children's health coverage, including CHIP and Medicaid.",
         "nextSteps": "Apply online, by phone, or by mail using the DHS guidance.",
         "officialLink": "https://www.pa.gov/agencies/dhs/resources/chip/eligibility-and-benefits/apply-for-childrens-health-care"
+      },
+      {
+        "title": "Request a Pre-Application Appointment with a WIC Specialist",
+        "description": "Schedule support to understand WIC eligibility and enrollment steps.",
+        "nextSteps": "Book a pre-application appointment and gather household information.",
+        "officialLink": "https://www.pa.gov/services/health/request-a-pre-application-appointment-with-a-wic-specialist"
+      },
+      {
+        "title": "WIC Program Information",
+        "description": "Learn about nutrition, breastfeeding support, and healthy food benefits through WIC.",
+        "nextSteps": "Review program details and contact your local WIC clinic to enroll.",
+        "officialLink": "https://www.pa.gov/agencies/health/programs/maternal-health-and-infant-care/wic.html"
+      },
+      {
+        "title": "CHIP Coverage and Benefits",
+        "description": "Review covered services and key details for CHIP health coverage.",
+        "nextSteps": "Check benefit details to choose the right coverage for your child.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/chip/chip-coverage.html"
+      },
+      {
+        "title": "Renew CHIP Coverage",
+        "description": "Guidance on keeping CHIP coverage active when it is time to renew.",
+        "nextSteps": "Follow renewal steps and submit requested documents before deadlines.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/chip/eligibility-and-benefits/renew-chip"
       }
     ],
     "Childcare/ECE": [
@@ -62,6 +86,24 @@
         "description": "Criminal background check (PATCH) required for many child-serving roles.",
         "nextSteps": "Submit an online PATCH request or use the paper process.",
         "officialLink": "https://www.pa.gov/agencies/dhs/resources/keep-kids-safe/child-abuse-clearances/criminal-background-check"
+      },
+      {
+        "title": "Early Learning and Child Care Resources",
+        "description": "State resources for early learning programs, provider search, and family guidance.",
+        "nextSteps": "Review available early learning supports and connect with local contacts.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/early-learning-child-care"
+      },
+      {
+        "title": "Keep Kids Safe: Child Abuse Clearances",
+        "description": "Overview of child abuse clearances needed for child-serving roles.",
+        "nextSteps": "Identify required clearances and complete submissions online.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/keep-kids-safe/child-abuse-clearances"
+      },
+      {
+        "title": "Office of Child Development and Early Learning",
+        "description": "Program hub for child care licensing, quality improvement, and family supports.",
+        "nextSteps": "Explore OCDEL resources and contact regional offices for guidance.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/programs-services/children-and-families/office-of-child-development-and-early-learning"
       }
     ],
     "School Support": [
@@ -88,6 +130,24 @@
         "description": "Resource hub for Pennsylvania students facing basic needs challenges.",
         "nextSteps": "Explore resources for mental health, food, housing, and financial supports.",
         "officialLink": "https://www.pa.gov/agencies/education/resources/student/empoweru.html"
+      },
+      {
+        "title": "PA Special Education Resources",
+        "description": "State information on special education services, rights, and supports.",
+        "nextSteps": "Use the resource hub to prepare for meetings and advocate for services.",
+        "officialLink": "https://www.pa.gov/en/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/special-education.html"
+      },
+      {
+        "title": "Elementary and Secondary Education Programs",
+        "description": "Pennsylvania education programs and school support information for families.",
+        "nextSteps": "Review available academic and student support programs.",
+        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education"
+      },
+      {
+        "title": "National School Lunch Program",
+        "description": "School meal program information and eligibility guidance for families.",
+        "nextSteps": "Contact your school district to apply for meal benefits.",
+        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/schools/food-and-nutrition/programs/national-school-lunch-program.html"
       }
     ],
     "Food & Financial Assistance": [
@@ -126,6 +186,24 @@
         "description": "Manage benefit applications, upload documents, and report changes.",
         "nextSteps": "Download the mobile app and sign in with your COMPASS account.",
         "officialLink": "https://www.pa.gov/agencies/dhs/contact/compass"
+      },
+      {
+        "title": "SNAP Program Information",
+        "description": "Program overview, eligibility details, and links for SNAP food assistance.",
+        "nextSteps": "Review SNAP guidance and apply through available channels.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/snap"
+      },
+      {
+        "title": "Pennsylvania Women, Infants and Children (WIC)",
+        "description": "Nutrition and food support for eligible pregnant participants and children.",
+        "nextSteps": "Find a local WIC clinic and complete enrollment steps.",
+        "officialLink": "https://www.pa.gov/agencies/health/programs/maternal-health-and-infant-care/wic.html"
+      },
+      {
+        "title": "Report Public Assistance Fraud",
+        "description": "Report suspected fraud related to public assistance programs.",
+        "nextSteps": "Submit a report through the state fraud reporting process.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/report-fraud.html"
       }
     ],
     "Mental Health": [
@@ -140,6 +218,18 @@
         "description": "Immediate, confidential crisis support with local connections.",
         "nextSteps": "Call, text, or chat 988 to reach a trained counselor.",
         "officialLink": "https://www.pa.gov/services/dhs/get-suicide-or-mental-health-crisis-help-988.html"
+      },
+      {
+        "title": "Find Mental Health and Substance Use Services",
+        "description": "Locate treatment and support services across Pennsylvania.",
+        "nextSteps": "Search for local providers and call to confirm intake steps.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder/find-services"
+      },
+      {
+        "title": "Mental Health and Substance Use Disorder Resources",
+        "description": "Statewide behavioral health resources, programs, and service navigation.",
+        "nextSteps": "Use the state resource pages to identify local support options.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder"
       }
     ],
     "After-school": [
@@ -148,6 +238,18 @@
         "description": "Federal after-school and summer learning programs for students.",
         "nextSteps": "Ask your school district about local 21st CCLC partners.",
         "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/21st-century-community-learning-centers.html"
+      },
+      {
+        "title": "PDE K-12 Education Programs",
+        "description": "Program hub with school-year and enrichment supports for students.",
+        "nextSteps": "Review district and state options for out-of-school support.",
+        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education"
+      },
+      {
+        "title": "PA EmpowerU Student Resource Hub",
+        "description": "Student support resources including mental health, food, housing, and finances.",
+        "nextSteps": "Browse resource categories and connect to available supports.",
+        "officialLink": "https://www.pa.gov/agencies/education/resources/student/empoweru.html"
       }
     ],
     "Employment & Training": [
@@ -180,6 +282,30 @@
         "description": "Employment support and services for Pennsylvanians with disabilities.",
         "nextSteps": "Apply online or contact your local OVR district office.",
         "officialLink": "https://www.pa.gov/en/services/dli/apply-for-vocational-rehabilitation-services.html"
+      },
+      {
+        "title": "File a Wage Payment and Collection Complaint",
+        "description": "Request help when wages are unpaid or delayed under state labor law.",
+        "nextSteps": "Submit the complaint form with employment and pay documentation.",
+        "officialLink": "https://www.pa.gov/services/dli/file-a-wage-payment-and-collection-complaint.html"
+      },
+      {
+        "title": "File a Minimum Wage and Overtime Complaint",
+        "description": "Report potential minimum wage or overtime violations.",
+        "nextSteps": "File a complaint and provide details about hours and pay.",
+        "officialLink": "https://www.pa.gov/services/dli/file-a-minimum-wage-and-overtime-complaint"
+      },
+      {
+        "title": "File a Prevailing Wage Complaint",
+        "description": "Report prevailing wage concerns for public works projects.",
+        "nextSteps": "Complete the complaint process and include project details.",
+        "officialLink": "https://www.pa.gov/services/dli/file-a-prevailing-wage-complaint.html"
+      },
+      {
+        "title": "PA CareerLink Workforce Development Services",
+        "description": "State workforce services and connections to training and employment support.",
+        "nextSteps": "Use workforce resources to find local programs and career planning help.",
+        "officialLink": "https://www.pa.gov/agencies/dli/programs-services/workforce-development-home/pa-careerlink-"
       }
     ]
   },

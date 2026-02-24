@@ -20,7 +20,8 @@ const elements = {
   printPlan: document.getElementById("print-plan"),
   emailTemplate: document.getElementById("email-template"),
   callTemplate: document.getElementById("call-template"),
-  languageToggle: document.getElementById("language-toggle"),
+  languageEn: document.getElementById("language-en"),
+  languageEs: document.getElementById("language-es"),
   clearSession: document.getElementById("clear-session"),
   county: document.getElementById("county"),
   caregiverStatus: document.getElementById("caregiver-status"),
@@ -57,9 +58,9 @@ const translations = {
     concernHelp:
       "We'll match keywords to support categories (for example: food, childcare, IEP, therapy).",
     situationLabel: "Describe your situation (optional)",
-    situationPlaceholder: "Share any details that might help us find the right supports.",
+    situationPlaceholder: "Share details about your situation, barriers, and what help you need.",
     situationHelp:
-      "We'll consider this along with your checked boxes to match additional resources.",
+      "We'll use this paragraph to improve keyword matching and suggest better resources.",
     ageRangeLegend: "Child age range",
     ageRange0to2: "0–2",
     ageRange3to5: "3–5",
@@ -127,9 +128,9 @@ const translations = {
     concernHelp:
       "Relacionaremos palabras clave con categorías de apoyo (por ejemplo: comida, cuidado infantil, IEP, terapia).",
     situationLabel: "Describe tu situación (opcional)",
-    situationPlaceholder: "Comparte detalles que ayuden a encontrar apoyos.",
+    situationPlaceholder: "Comparte detalles sobre tu situación, barreras y la ayuda que necesitas.",
     situationHelp:
-      "Lo consideraremos junto con las casillas seleccionadas para encontrar recursos adicionales.",
+      "Usaremos este párrafo para mejorar la coincidencia de palabras clave y sugerir mejores recursos.",
     ageRangeLegend: "Rango de edad del niño",
     ageRange0to2: "0–2",
     ageRange3to5: "3–5",
@@ -269,15 +270,11 @@ function applyTranslations() {
     if (value) el.setAttribute("placeholder", value);
   });
 
-  if (state.language === "en") {
-    elements.languageToggle.textContent = t("toggleToSpanish");
-    elements.languageToggle.setAttribute("aria-label", t("toggleToSpanishAria"));
-    elements.languageToggle.setAttribute("aria-pressed", "false");
-  } else {
-    elements.languageToggle.textContent = t("toggleToEnglish");
-    elements.languageToggle.setAttribute("aria-label", t("toggleToEnglishAria"));
-    elements.languageToggle.setAttribute("aria-pressed", "true");
-  }
+  const isEnglish = state.language === "en";
+  elements.languageEn.setAttribute("aria-pressed", String(isEnglish));
+  elements.languageEs.setAttribute("aria-pressed", String(!isEnglish));
+  elements.languageEn.classList.toggle("active", isEnglish);
+  elements.languageEs.classList.toggle("active", !isEnglish);
 
   elements.closeModal.setAttribute("aria-label", t("closeModal"));
 }
@@ -291,6 +288,16 @@ function setLanguage(nextLanguage) {
 
 function normalizeNeeds(needs) {
   return needs.length ? needs : ["Food & Financial Assistance", "Healthcare"];
+}
+
+function normalizeTextForMatch(text) {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9\s-]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 const concernKeywords = {
@@ -326,10 +333,29 @@ const concernKeywords = {
 
 function matchConcernToNeeds(text) {
   if (!text) return [];
-  const lower = text.toLowerCase();
+  const normalizedText = normalizeTextForMatch(text);
+  const tokenSet = new Set(normalizedText.split(" ").filter(Boolean));
+  const textTerms = Array.from(tokenSet);
   const matches = [];
+
   Object.entries(concernKeywords).forEach(([category, keywords]) => {
-    if (keywords.some((keyword) => lower.includes(keyword))) {
+    const found = keywords.some((keyword) => {
+      const normalizedKeyword = normalizeTextForMatch(keyword);
+      if (!normalizedKeyword) return false;
+      if (normalizedKeyword.includes(" ")) {
+        return normalizedText.includes(normalizedKeyword);
+      }
+      if (tokenSet.has(normalizedKeyword)) return true;
+      // Allow partial matching for longer words to improve free-text detection.
+      return textTerms.some(
+        (term) =>
+          term.length >= 5 &&
+          normalizedKeyword.length >= 5 &&
+          (term.startsWith(normalizedKeyword) || normalizedKeyword.startsWith(term))
+      );
+    });
+
+    if (found) {
       matches.push(category);
     }
   });
@@ -536,9 +562,8 @@ function init() {
   });
   elements.copyModal.addEventListener("click", copyModalText);
   elements.clearSession.addEventListener("click", clearSession);
-  elements.languageToggle.addEventListener("click", () =>
-    setLanguage(state.language === "en" ? "es" : "en")
-  );
+  elements.languageEn.addEventListener("click", () => setLanguage("en"));
+  elements.languageEs.addEventListener("click", () => setLanguage("es"));
 
   elements.submitFeedback.addEventListener("click", () => {
     const text = elements.feedbackText.value.trim();
