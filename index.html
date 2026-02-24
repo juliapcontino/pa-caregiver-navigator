@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PA Caregiver Navigator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header" role="banner">
+      <div class="header-inner">
+        <img
+          src="pa-logo.svg"
+          alt="PA Caregiver Navigator logo"
+          class="logo"
+        />
+        <!-- Replace pa-logo.svg with an updated official logo asset if needed. -->
+        <div>
+          <p class="eyebrow">PA Caregiver Navigator</p>
+          <p class="subtitle">Find local supports tailored to your family.</p>
+        </div>
+      </div>
+      <button id="clear-session" class="ghost-button" type="button">
+        Clear session
+      </button>
+    </header>
+
+    <main id="main" class="container" role="main">
+      <section id="welcome" class="card" aria-labelledby="welcome-title">
+        <h1 id="welcome-title">Welcome</h1>
+        <p>
+          This tool helps caregivers explore support options across Pennsylvania.
+          Answer a few quick questions to get a personalized support plan.
+        </p>
+        <button id="start-button" class="primary" type="button">
+          Start
+        </button>
+      </section>
+
+      <section id="intake" class="card hidden" aria-labelledby="intake-title">
+        <h2 id="intake-title">Tell us a little about your situation</h2>
+        <form id="intake-form" novalidate>
+          <div class="form-group">
+            <label for="county">County</label>
+            <select id="county" name="county" required>
+              <option value="" disabled selected>Select your county</option>
+              <option value="Adams">Adams</option>
+              <option value="Allegheny">Allegheny</option>
+              <option value="Armstrong">Armstrong</option>
+              <option value="Beaver">Beaver</option>
+              <option value="Bedford">Bedford</option>
+              <option value="Berks">Berks</option>
+              <option value="Blair">Blair</option>
+              <option value="Bradford">Bradford</option>
+              <option value="Bucks">Bucks</option>
+              <option value="Butler">Butler</option>
+              <option value="Cambria">Cambria</option>
+              <option value="Cameron">Cameron</option>
+              <option value="Carbon">Carbon</option>
+              <option value="Centre">Centre</option>
+              <option value="Chester">Chester</option>
+              <option value="Clarion">Clarion</option>
+              <option value="Clearfield">Clearfield</option>
+              <option value="Clinton">Clinton</option>
+              <option value="Columbia">Columbia</option>
+              <option value="Crawford">Crawford</option>
+              <option value="Cumberland">Cumberland</option>
+              <option value="Dauphin">Dauphin</option>
+              <option value="Delaware">Delaware</option>
+              <option value="Elk">Elk</option>
+              <option value="Erie">Erie</option>
+              <option value="Fayette">Fayette</option>
+              <option value="Forest">Forest</option>
+              <option value="Franklin">Franklin</option>
+              <option value="Fulton">Fulton</option>
+              <option value="Greene">Greene</option>
+              <option value="Huntingdon">Huntingdon</option>
+              <option value="Indiana">Indiana</option>
+              <option value="Jefferson">Jefferson</option>
+              <option value="Juniata">Juniata</option>
+              <option value="Lackawanna">Lackawanna</option>
+              <option value="Lancaster">Lancaster</option>
+              <option value="Lawrence">Lawrence</option>
+              <option value="Lebanon">Lebanon</option>
+              <option value="Lehigh">Lehigh</option>
+              <option value="Luzerne">Luzerne</option>
+              <option value="Lycoming">Lycoming</option>
+              <option value="McKean">McKean</option>
+              <option value="Mercer">Mercer</option>
+              <option value="Mifflin">Mifflin</option>
+              <option value="Monroe">Monroe</option>
+              <option value="Montgomery">Montgomery</option>
+              <option value="Montour">Montour</option>
+              <option value="Northampton">Northampton</option>
+              <option value="Northumberland">Northumberland</option>
+              <option value="Perry">Perry</option>
+              <option value="Philadelphia">Philadelphia</option>
+              <option value="Pike">Pike</option>
+              <option value="Potter">Potter</option>
+              <option value="Schuylkill">Schuylkill</option>
+              <option value="Snyder">Snyder</option>
+              <option value="Somerset">Somerset</option>
+              <option value="Sullivan">Sullivan</option>
+              <option value="Susquehanna">Susquehanna</option>
+              <option value="Tioga">Tioga</option>
+              <option value="Union">Union</option>
+              <option value="Venango">Venango</option>
+              <option value="Warren">Warren</option>
+              <option value="Washington">Washington</option>
+              <option value="Wayne">Wayne</option>
+              <option value="Westmoreland">Westmoreland</option>
+              <option value="Wyoming">Wyoming</option>
+              <option value="York">York</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="concern">Main concern (optional)</label>
+            <input
+              id="concern"
+              name="concern"
+              type="text"
+              placeholder="e.g., childcare, food help, IEP, counseling"
+              aria-describedby="concern-help"
+            />
+            <p id="concern-help" class="helper">
+              We'll match keywords to support categories (for example: food, childcare, IEP, therapy).
+            </p>
+            <label class="inline-option">
+              <input type="checkbox" id="concern-override" name="concernOverride" />
+              Use concern matches instead of checkboxes
+            </label>
+          </div>
+
+          <fieldset class="form-group">
+            <legend>Child age range</legend>
+            <div class="option-list">
+              <label><input type="radio" name="ageRange" value="0-2" required /> 0–2</label>
+              <label><input type="radio" name="ageRange" value="3-5" /> 3–5</label>
+              <label><input type="radio" name="ageRange" value="6-12" /> 6–12</label>
+              <label><input type="radio" name="ageRange" value="13-18" /> 13–18</label>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <legend>Support needs</legend>
+            <div class="option-list">
+              <label><input type="checkbox" name="needs" value="Healthcare" /> Healthcare</label>
+              <label><input type="checkbox" name="needs" value="Childcare/ECE" /> Childcare/ECE</label>
+              <label><input type="checkbox" name="needs" value="School Support" /> School Support</label>
+              <label><input type="checkbox" name="needs" value="Food & Financial Assistance" /> Food & Financial Assistance</label>
+              <label><input type="checkbox" name="needs" value="Mental Health" /> Mental Health</label>
+              <label><input type="checkbox" name="needs" value="After-school" /> After-school</label>
+              <label><input type="checkbox" name="needs" value="Employment & Training" /> Employment & Training</label>
+            </div>
+          </fieldset>
+
+          <div class="form-group">
+            <label for="caregiver-status">Caregiver status</label>
+            <select id="caregiver-status" name="caregiverStatus" required>
+              <option value="" disabled selected>Select status</option>
+              <option value="Working full-time">Working full-time</option>
+              <option value="Part-time">Part-time</option>
+              <option value="Seeking">Seeking</option>
+              <option value="Student">Student</option>
+              <option value="Staying home">Staying home</option>
+            </select>
+          </div>
+
+          <button class="primary" type="submit">Generate plan</button>
+        </form>
+      </section>
+
+      <section id="plan" class="card hidden" aria-labelledby="plan-title">
+        <div class="plan-header">
+          <div>
+            <h2 id="plan-title">Personalized Support Plan</h2>
+            <p id="plan-summary" class="muted"></p>
+          </div>
+          <div class="plan-actions">
+            <button id="print-plan" class="secondary" type="button">
+              Download PDF
+            </button>
+            <button id="email-template" class="secondary" type="button">
+              Generate email to agency
+            </button>
+            <button id="call-template" class="secondary" type="button">
+              Generate phone call script
+            </button>
+          </div>
+        </div>
+
+        <div id="plan-list" class="plan-list" aria-live="polite"></div>
+
+        <p class="disclaimer" role="note">
+          This tool is informational only — confirm eligibility with official agencies.
+        </p>
+
+        <div class="feedback card-subsection" aria-labelledby="feedback-title">
+          <h3 id="feedback-title">Optional feedback</h3>
+          <label for="feedback-text">Share what could be improved (local only)</label>
+          <textarea id="feedback-text" rows="3"></textarea>
+          <div class="feedback-actions">
+            <button id="submit-feedback" class="secondary" type="button">Submit feedback</button>
+            <button id="clear-feedback" class="ghost-button" type="button">Clear feedback</button>
+          </div>
+          <div>
+            <p class="muted">Recent feedback (stored on this device only):</p>
+            <ul id="feedback-list" class="feedback-list" aria-live="polite"></ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="modal-title">Draft message</h3>
+          <button id="close-modal" class="ghost-button" type="button" aria-label="Close modal">Close</button>
+        </div>
+        <p class="muted" id="modal-context"></p>
+        <textarea id="modal-text" rows="10"></textarea>
+        <div class="modal-actions">
+          <button id="copy-modal" class="secondary" type="button">Copy text</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

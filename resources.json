@@ -1,0 +1,176 @@
+{
+  "statewide": {
+    "Healthcare": [
+      {
+        "title": "Apply for Medicaid Benefits (Medical Assistance)",
+        "description": "Coverage options for children and caregivers, including Medical Assistance.",
+        "nextSteps": "Apply online through COMPASS or contact your county assistance office.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-medicaid-benefits.html"
+      }
+    ],
+    "Childcare/ECE": [
+      {
+        "title": "Child Care Works (Subsidized Child Care)",
+        "description": "Help paying for childcare while working, training, or in school.",
+        "nextSteps": "Contact your Early Learning Resource Center (ELRC) to start an application.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-child-care-works-subsidized-child-care"
+      }
+    ],
+    "School Support": [
+      {
+        "title": "Special Education ConsultLine",
+        "description": "Information and guidance on special education rights, IEPs, and 504s.",
+        "nextSteps": "Call ConsultLine to discuss your concern and next steps with your school.",
+        "officialLink": "https://www.pa.gov/services/education/call-the-special-education-in-pa-consultline"
+      }
+    ],
+    "Food & Financial Assistance": [
+      {
+        "title": "Apply for SNAP",
+        "description": "Monthly benefits that help families buy groceries.",
+        "nextSteps": "Submit a SNAP application online or in person at your county assistance office.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-supplemental-nutrition-assistance-program-snap"
+      }
+    ],
+    "Mental Health": [
+      {
+        "title": "988: Crisis Support",
+        "description": "24/7 call, text, or chat support for behavioral health crises.",
+        "nextSteps": "Call or text 988 if you or a loved one need immediate support.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder/988"
+      }
+    ],
+    "After-school": [
+      {
+        "title": "21st Century Community Learning Centers",
+        "description": "Federal after-school and summer learning programs for students.",
+        "nextSteps": "Ask your school district about local 21st CCLC partners.",
+        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/21st-century-community-learning-centers.html"
+      }
+    ],
+    "Employment & Training": [
+      {
+        "title": "Find Jobs with PA CareerLink",
+        "description": "Job search, training, and career services across Pennsylvania.",
+        "nextSteps": "Locate your local PA CareerLink office and ask about training support.",
+        "officialLink": "https://www.pa.gov/services/dli/find-jobs-with-pa-careerlink-.html"
+      }
+    ]
+  },
+  "Philadelphia": {
+    "Healthcare": [
+      {
+        "title": "Philadelphia Medical Assistance Enrollment",
+        "description": "County assistance offices can help with Medical Assistance applications.",
+        "nextSteps": "Use the Medicaid Benefits application and request help with your local office.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-medicaid-benefits.html"
+      }
+    ],
+    "Childcare/ECE": [
+      {
+        "title": "Philadelphia Child Care Works",
+        "description": "Subsidized child care support for eligible families.",
+        "nextSteps": "Contact your ELRC to confirm eligibility and start an application.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-child-care-works-subsidized-child-care"
+      }
+    ],
+    "School Support": [
+      {
+        "title": "Special Education ConsultLine",
+        "description": "Statewide support to navigate IEPs and school services.",
+        "nextSteps": "Call ConsultLine and prepare your child’s school details.",
+        "officialLink": "https://www.pa.gov/services/education/call-the-special-education-in-pa-consultline"
+      }
+    ],
+    "Food & Financial Assistance": [
+      {
+        "title": "Philadelphia SNAP Application",
+        "description": "Apply for SNAP to support grocery costs.",
+        "nextSteps": "Apply online or visit your county assistance office.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-supplemental-nutrition-assistance-program-snap"
+      }
+    ],
+    "Mental Health": [
+      {
+        "title": "988 Crisis Support",
+        "description": "Immediate crisis support for caregivers and youth.",
+        "nextSteps": "Call or text 988 anytime for confidential support.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder/988"
+      }
+    ],
+    "After-school": [
+      {
+        "title": "21st Century Community Learning Centers",
+        "description": "After-school and summer learning programs supported by PDE.",
+        "nextSteps": "Ask your school about 21st CCLC programs in Philadelphia.",
+        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/21st-century-community-learning-centers.html"
+      }
+    ],
+    "Employment & Training": [
+      {
+        "title": "PA CareerLink for Philadelphia",
+        "description": "Job search support and training opportunities for caregivers.",
+        "nextSteps": "Find your local PA CareerLink office and schedule an intake.",
+        "officialLink": "https://www.pa.gov/services/dli/find-jobs-with-pa-careerlink-.html"
+      }
+    ]
+  },
+  "Allegheny": {
+    "Healthcare": [
+      {
+        "title": "Allegheny Medical Assistance Enrollment",
+        "description": "Medical Assistance applications for families and caregivers.",
+        "nextSteps": "Apply online and contact your county assistance office for help.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-medicaid-benefits.html"
+      }
+    ],
+    "Childcare/ECE": [
+      {
+        "title": "Allegheny Child Care Works",
+        "description": "Subsidized child care support for eligible families.",
+        "nextSteps": "Connect with the ELRC serving Allegheny County.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-child-care-works-subsidized-child-care"
+      }
+    ],
+    "School Support": [
+      {
+        "title": "Special Education ConsultLine",
+        "description": "Statewide guidance on IEPs, evaluations, and family rights.",
+        "nextSteps": "Call ConsultLine to discuss your school-related concerns.",
+        "officialLink": "https://www.pa.gov/services/education/call-the-special-education-in-pa-consultline"
+      }
+    ],
+    "Food & Financial Assistance": [
+      {
+        "title": "Allegheny SNAP Application",
+        "description": "Apply for SNAP to help with food costs.",
+        "nextSteps": "Apply online or visit your county assistance office.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-supplemental-nutrition-assistance-program-snap"
+      }
+    ],
+    "Mental Health": [
+      {
+        "title": "988 Crisis Support",
+        "description": "Immediate crisis support for caregivers and youth.",
+        "nextSteps": "Call or text 988 anytime for confidential support.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder/988"
+      }
+    ],
+    "After-school": [
+      {
+        "title": "21st Century Community Learning Centers",
+        "description": "After-school and summer learning programs supported by PDE.",
+        "nextSteps": "Ask your school about 21st CCLC programs in Allegheny County.",
+        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/21st-century-community-learning-centers.html"
+      }
+    ],
+    "Employment & Training": [
+      {
+        "title": "PA CareerLink for Allegheny County",
+        "description": "Job search support and training opportunities for caregivers.",
+        "nextSteps": "Find your local PA CareerLink office and schedule an intake.",
+        "officialLink": "https://www.pa.gov/services/dli/find-jobs-with-pa-careerlink-.html"
+      }
+    ]
+  }
+}
