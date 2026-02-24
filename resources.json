@@ -6,6 +6,24 @@
         "description": "Coverage options for children and caregivers, including Medical Assistance.",
         "nextSteps": "Apply online through COMPASS or contact your county assistance office.",
         "officialLink": "https://www.pa.gov/services/dhs/apply-for-medicaid-benefits.html"
+      },
+      {
+        "title": "Apply for Children's Health Insurance Program (CHIP)",
+        "description": "Low-cost or free health coverage for children and teens.",
+        "nextSteps": "Apply through COMPASS or call the CHIP helpline for support.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-childrens-health-insurance-program-chip.html"
+      },
+      {
+        "title": "Apply for Medical Assistance for Workers with Disabilities (MAWD)",
+        "description": "Medicaid coverage that supports employed Pennsylvanians with disabilities.",
+        "nextSteps": "Contact your county assistance office or apply through COMPASS.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-medical-assistance-for-workers-with-disabilities-mawd"
+      },
+      {
+        "title": "Apply for Children's Health Care",
+        "description": "Application options for children's health coverage, including CHIP and Medicaid.",
+        "nextSteps": "Apply online, by phone, or by mail using the DHS guidance.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/chip/eligibility-and-benefits/apply-for-childrens-health-care"
       }
     ],
     "Childcare/ECE": [
@@ -14,6 +32,36 @@
         "description": "Help paying for childcare while working, training, or in school.",
         "nextSteps": "Contact your Early Learning Resource Center (ELRC) to start an application.",
         "officialLink": "https://www.pa.gov/services/dhs/apply-for-child-care-works-subsidized-child-care"
+      },
+      {
+        "title": "Find an Early Learning Resource Center (ELRC)",
+        "description": "Local hubs for child care referrals, quality info, and Child Care Works support.",
+        "nextSteps": "Find your ELRC by county and contact them for help.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/early-learning-child-care/elrc"
+      },
+      {
+        "title": "File a Child Care Facility Complaint",
+        "description": "Report concerns about regulated child care facilities.",
+        "nextSteps": "Submit an online complaint or contact your regional child development office.",
+        "officialLink": "https://www.pa.gov/services/dhs/file-a-child-care-facility-complaint"
+      },
+      {
+        "title": "Request a Child Abuse History Clearance",
+        "description": "Required clearance for many people working or volunteering with children.",
+        "nextSteps": "Request a clearance online through CWIS or submit by mail.",
+        "officialLink": "https://www.pa.gov/services/dhs/request-a-child-abuse-history-clearance"
+      },
+      {
+        "title": "Request a National Sex Offender Registry Verification",
+        "description": "Verification letter required for many child care providers and relatives.",
+        "nextSteps": "Download and submit the verification request.",
+        "officialLink": "https://www.pa.gov/services/dhs/request-a-national-sex-offender-registry-verification-for-child"
+      },
+      {
+        "title": "Pennsylvania State Police Criminal History Record Check",
+        "description": "Criminal background check (PATCH) required for many child-serving roles.",
+        "nextSteps": "Submit an online PATCH request or use the paper process.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/keep-kids-safe/child-abuse-clearances/criminal-background-check"
       }
     ],
     "School Support": [
@@ -22,6 +70,24 @@
         "description": "Information and guidance on special education rights, IEPs, and 504s.",
         "nextSteps": "Call ConsultLine to discuss your concern and next steps with your school.",
         "officialLink": "https://www.pa.gov/services/education/call-the-special-education-in-pa-consultline"
+      },
+      {
+        "title": "Student Assistance Program (SAP)",
+        "description": "School-based team process to remove barriers to learning, including mental health.",
+        "nextSteps": "Ask your school about SAP supports and referrals.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/for-residents/student-assistance-program"
+      },
+      {
+        "title": "Report Child Abuse or Neglect",
+        "description": "ChildLine hotline for concerns about child safety and wellbeing.",
+        "nextSteps": "Call ChildLine or use the online reporting options.",
+        "officialLink": "https://www.pa.gov/services/dhs/report-child-abuse-or-neglect"
+      },
+      {
+        "title": "PA EmpowerU",
+        "description": "Resource hub for Pennsylvania students facing basic needs challenges.",
+        "nextSteps": "Explore resources for mental health, food, housing, and financial supports.",
+        "officialLink": "https://www.pa.gov/agencies/education/resources/student/empoweru.html"
       }
     ],
     "Food & Financial Assistance": [
@@ -30,6 +96,36 @@
         "description": "Monthly benefits that help families buy groceries.",
         "nextSteps": "Submit a SNAP application online or in person at your county assistance office.",
         "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-supplemental-nutrition-assistance-program-snap"
+      },
+      {
+        "title": "Apply for LIHEAP (Home Energy Assistance)",
+        "description": "Cash grants to help pay heating bills during the cold season.",
+        "nextSteps": "Apply online through COMPASS during the open season.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-low-income-home-energy-assistance-program-liheap"
+      },
+      {
+        "title": "Apply for Cash Assistance",
+        "description": "Temporary financial help for families in need.",
+        "nextSteps": "Apply through COMPASS, by phone, or in person at your CAO.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-cash-assistance"
+      },
+      {
+        "title": "Apply for Child Support Services",
+        "description": "Manage, establish, or update child support services and requests.",
+        "nextSteps": "Register on the PA Child Support website to submit a request.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-child-support-services"
+      },
+      {
+        "title": "Apply for Benefits (COMPASS)",
+        "description": "Apply for or renew DHS benefits like SNAP, Medicaid, or cash assistance.",
+        "nextSteps": "Use COMPASS online or visit a county assistance office.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/programs-services/apply-for-benefits"
+      },
+      {
+        "title": "MyCOMPASS PA Mobile App",
+        "description": "Manage benefit applications, upload documents, and report changes.",
+        "nextSteps": "Download the mobile app and sign in with your COMPASS account.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/contact/compass"
       }
     ],
     "Mental Health": [
@@ -38,6 +134,12 @@
         "description": "24/7 call, text, or chat support for behavioral health crises.",
         "nextSteps": "Call or text 988 if you or a loved one need immediate support.",
         "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder/988"
+      },
+      {
+        "title": "Get Suicide or Mental Health Crisis Help (988)",
+        "description": "Immediate, confidential crisis support with local connections.",
+        "nextSteps": "Call, text, or chat 988 to reach a trained counselor.",
+        "officialLink": "https://www.pa.gov/services/dhs/get-suicide-or-mental-health-crisis-help-988.html"
       }
     ],
     "After-school": [
@@ -54,6 +156,30 @@
         "description": "Job search, training, and career services across Pennsylvania.",
         "nextSteps": "Locate your local PA CareerLink office and ask about training support.",
         "officialLink": "https://www.pa.gov/services/dli/find-jobs-with-pa-careerlink-.html"
+      },
+      {
+        "title": "Apply for Unemployment Compensation Benefits",
+        "description": "Financial support for workers who are unemployed through no fault of their own.",
+        "nextSteps": "File or manage your claim using the online UC system.",
+        "officialLink": "https://www.pa.gov/services/dli/apply-for-unemployment-compensation-benefits"
+      },
+      {
+        "title": "Find a Registered Apprenticeship Program",
+        "description": "Earn while you learn in an apprenticeship program.",
+        "nextSteps": "Connect with PA CareerLink to find local apprenticeship options.",
+        "officialLink": "https://www.pa.gov/services/dli/find-a-registered-apprenticeship-program.html"
+      },
+      {
+        "title": "Find a Registered Pre-Apprenticeship Program",
+        "description": "Pre-apprenticeship programs prepare you for paid apprenticeships.",
+        "nextSteps": "Visit PA CareerLink to identify and apply for a program.",
+        "officialLink": "https://www.pa.gov/services/dli/find-a-registered-pre-apprenticeship-program.html"
+      },
+      {
+        "title": "Apply for Vocational Rehabilitation Services",
+        "description": "Employment support and services for Pennsylvanians with disabilities.",
+        "nextSteps": "Apply online or contact your local OVR district office.",
+        "officialLink": "https://www.pa.gov/en/services/dli/apply-for-vocational-rehabilitation-services.html"
       }
     ]
   },
@@ -78,7 +204,7 @@
       {
         "title": "Special Education ConsultLine",
         "description": "Statewide support to navigate IEPs and school services.",
-        "nextSteps": "Call ConsultLine and prepare your child’s school details.",
+        "nextSteps": "Call ConsultLine and prepare your child's school details.",
         "officialLink": "https://www.pa.gov/services/education/call-the-special-education-in-pa-consultline"
       }
     ],

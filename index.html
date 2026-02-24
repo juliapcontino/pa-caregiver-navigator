@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to main content</a>
+    <a class="skip-link" href="#main" data-i18n="skipLink">Skip to main content</a>
 
     <header class="site-header" role="banner">
       <div class="header-inner">
@@ -18,34 +18,40 @@
         />
         <!-- Replace pa-logo.svg with an updated official logo asset if needed. -->
         <div>
-          <p class="eyebrow">PA Caregiver Navigator</p>
-          <p class="subtitle">Find local supports tailored to your family.</p>
+          <p class="eyebrow" data-i18n="appName">PA Caregiver Navigator</p>
+          <p class="subtitle" data-i18n="appSubtitle">Find local supports tailored to your family.</p>
         </div>
       </div>
-      <button id="clear-session" class="ghost-button" type="button">
-        Clear session
-      </button>
+      <div class="header-actions">
+        <button id="language-toggle" class="secondary" type="button" aria-pressed="false">
+          Español
+        </button>
+        <button id="clear-session" class="ghost-button" type="button" data-i18n="clearSession">
+          Clear session
+        </button>
+      </div>
     </header>
 
     <main id="main" class="container" role="main">
       <section id="welcome" class="card" aria-labelledby="welcome-title">
-        <h1 id="welcome-title">Welcome</h1>
-        <p>
+        <h1 id="welcome-title" data-i18n="welcomeTitle">Welcome</h1>
+        <p data-i18n="welcomeBody">
           This tool helps caregivers explore support options across Pennsylvania.
           Answer a few quick questions to get a personalized support plan.
         </p>
-        <button id="start-button" class="primary" type="button">
+        <button id="start-button" class="primary" type="button" data-i18n="startButton">
           Start
         </button>
       </section>
 
       <section id="intake" class="card hidden" aria-labelledby="intake-title">
-        <h2 id="intake-title">Tell us a little about your situation</h2>
+        <h2 id="intake-title" data-i18n="intakeTitle">Tell us a little about your situation</h2>
         <form id="intake-form" novalidate>
+          <div id="form-error" class="form-error" role="alert" aria-live="assertive"></div>
           <div class="form-group">
-            <label for="county">County</label>
+            <label for="county" data-i18n="countyLabel">County</label>
             <select id="county" name="county" required>
-              <option value="" disabled selected>Select your county</option>
+              <option value="" disabled selected data-i18n="countyPlaceholder">Select your county</option>
               <option value="Adams">Adams</option>
               <option value="Allegheny">Allegheny</option>
               <option value="Armstrong">Armstrong</option>
@@ -116,114 +122,127 @@
             </select>
           </div>
 
+          <fieldset id="age-range-fieldset" class="form-group">
+            <legend data-i18n="ageRangeLegend">Child age range</legend>
+            <div class="option-list">
+              <label><input type="radio" name="ageRange" value="0-2" required /> <span data-i18n="ageRange0to2">0–2</span></label>
+              <label><input type="radio" name="ageRange" value="3-5" /> <span data-i18n="ageRange3to5">3–5</span></label>
+              <label><input type="radio" name="ageRange" value="6-12" /> <span data-i18n="ageRange6to12">6–12</span></label>
+              <label><input type="radio" name="ageRange" value="13-18" /> <span data-i18n="ageRange13to18">13–18</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset id="needs-fieldset" class="form-group">
+            <legend data-i18n="needsLegend">Support needs</legend>
+            <div class="option-list">
+              <label><input type="checkbox" name="needs" value="Healthcare" /> <span data-i18n="needHealthcare">Healthcare</span></label>
+              <label><input type="checkbox" name="needs" value="Childcare/ECE" /> <span data-i18n="needChildcare">Childcare/ECE</span></label>
+              <label><input type="checkbox" name="needs" value="School Support" /> <span data-i18n="needSchoolSupport">School Support</span></label>
+              <label><input type="checkbox" name="needs" value="Food & Financial Assistance" /> <span data-i18n="needFoodAssistance">Food & Financial Assistance</span></label>
+              <label><input type="checkbox" name="needs" value="Mental Health" /> <span data-i18n="needMentalHealth">Mental Health</span></label>
+              <label><input type="checkbox" name="needs" value="After-school" /> <span data-i18n="needAfterSchool">After-school</span></label>
+              <label><input type="checkbox" name="needs" value="Employment & Training" /> <span data-i18n="needEmployment">Employment & Training</span></label>
+            </div>
+          </fieldset>
+
           <div class="form-group">
-            <label for="concern">Main concern (optional)</label>
+            <label for="concern" data-i18n="concernLabel">Main concern (optional)</label>
             <input
               id="concern"
               name="concern"
               type="text"
               placeholder="e.g., childcare, food help, IEP, counseling"
               aria-describedby="concern-help"
+              data-i18n-placeholder="concernPlaceholder"
             />
-            <p id="concern-help" class="helper">
+            <p id="concern-help" class="helper" data-i18n="concernHelp">
               We'll match keywords to support categories (for example: food, childcare, IEP, therapy).
             </p>
-            <label class="inline-option">
-              <input type="checkbox" id="concern-override" name="concernOverride" />
-              Use concern matches instead of checkboxes
-            </label>
           </div>
 
-          <fieldset class="form-group">
-            <legend>Child age range</legend>
-            <div class="option-list">
-              <label><input type="radio" name="ageRange" value="0-2" required /> 0–2</label>
-              <label><input type="radio" name="ageRange" value="3-5" /> 3–5</label>
-              <label><input type="radio" name="ageRange" value="6-12" /> 6–12</label>
-              <label><input type="radio" name="ageRange" value="13-18" /> 13–18</label>
-            </div>
-          </fieldset>
-
-          <fieldset class="form-group">
-            <legend>Support needs</legend>
-            <div class="option-list">
-              <label><input type="checkbox" name="needs" value="Healthcare" /> Healthcare</label>
-              <label><input type="checkbox" name="needs" value="Childcare/ECE" /> Childcare/ECE</label>
-              <label><input type="checkbox" name="needs" value="School Support" /> School Support</label>
-              <label><input type="checkbox" name="needs" value="Food & Financial Assistance" /> Food & Financial Assistance</label>
-              <label><input type="checkbox" name="needs" value="Mental Health" /> Mental Health</label>
-              <label><input type="checkbox" name="needs" value="After-school" /> After-school</label>
-              <label><input type="checkbox" name="needs" value="Employment & Training" /> Employment & Training</label>
-            </div>
-          </fieldset>
+          <div class="form-group">
+            <label for="situation" data-i18n="situationLabel">Describe your situation (optional)</label>
+            <textarea
+              id="situation"
+              name="situation"
+              rows="4"
+              placeholder="Share any details that might help us find the right supports."
+              aria-describedby="situation-help"
+              data-i18n-placeholder="situationPlaceholder"
+            ></textarea>
+            <p id="situation-help" class="helper" data-i18n="situationHelp">
+              We'll consider this along with your checked boxes to match additional resources.
+            </p>
+          </div>
 
           <div class="form-group">
-            <label for="caregiver-status">Caregiver status</label>
+            <label for="caregiver-status" data-i18n="caregiverStatusLabel">Caregiver status</label>
             <select id="caregiver-status" name="caregiverStatus" required>
-              <option value="" disabled selected>Select status</option>
-              <option value="Working full-time">Working full-time</option>
-              <option value="Part-time">Part-time</option>
-              <option value="Seeking">Seeking</option>
-              <option value="Student">Student</option>
-              <option value="Staying home">Staying home</option>
+              <option value="" disabled selected data-i18n="caregiverStatusPlaceholder">Select status</option>
+              <option value="Working full-time" data-i18n="caregiverWorkingFull">Working full-time</option>
+              <option value="Part-time" data-i18n="caregiverPartTime">Part-time</option>
+              <option value="Seeking" data-i18n="caregiverSeeking">Seeking</option>
+              <option value="Student" data-i18n="caregiverStudent">Student</option>
+              <option value="Staying home" data-i18n="caregiverStayingHome">Staying home</option>
             </select>
           </div>
 
-          <button class="primary" type="submit">Generate plan</button>
+          <button class="primary" type="submit" data-i18n="generatePlan">Generate plan</button>
         </form>
       </section>
 
       <section id="plan" class="card hidden" aria-labelledby="plan-title">
         <div class="plan-header">
           <div>
-            <h2 id="plan-title">Personalized Support Plan</h2>
-            <p id="plan-summary" class="muted"></p>
+            <h2 id="plan-title" data-i18n="planTitle">Personalized Support Plan</h2>
+            <p id="plan-summary" class="muted" role="status" aria-live="polite"></p>
           </div>
           <div class="plan-actions">
             <button id="print-plan" class="secondary" type="button">
-              Download PDF
+              <span data-i18n="downloadPdf">Download PDF</span>
             </button>
             <button id="email-template" class="secondary" type="button">
-              Generate email to agency
+              <span data-i18n="generateEmail">Generate email to agency</span>
             </button>
             <button id="call-template" class="secondary" type="button">
-              Generate phone call script
+              <span data-i18n="generateCall">Generate phone call script</span>
             </button>
           </div>
         </div>
 
         <div id="plan-list" class="plan-list" aria-live="polite"></div>
 
-        <p class="disclaimer" role="note">
+        <p class="disclaimer" role="note" data-i18n="disclaimer">
           This tool is informational only — confirm eligibility with official agencies.
         </p>
 
         <div class="feedback card-subsection" aria-labelledby="feedback-title">
-          <h3 id="feedback-title">Optional feedback</h3>
-          <label for="feedback-text">Share what could be improved (local only)</label>
+          <h3 id="feedback-title" data-i18n="feedbackTitle">Optional feedback</h3>
+          <label for="feedback-text" data-i18n="feedbackLabel">Share what could be improved (local only)</label>
           <textarea id="feedback-text" rows="3"></textarea>
           <div class="feedback-actions">
-            <button id="submit-feedback" class="secondary" type="button">Submit feedback</button>
-            <button id="clear-feedback" class="ghost-button" type="button">Clear feedback</button>
+            <button id="submit-feedback" class="secondary" type="button" data-i18n="submitFeedback">Submit feedback</button>
+            <button id="clear-feedback" class="ghost-button" type="button" data-i18n="clearFeedback">Clear feedback</button>
           </div>
           <div>
-            <p class="muted">Recent feedback (stored on this device only):</p>
+            <p class="muted" data-i18n="recentFeedback">Recent feedback (stored on this device only):</p>
             <ul id="feedback-list" class="feedback-list" aria-live="polite"></ul>
           </div>
         </div>
       </section>
     </main>
 
-    <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-context">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 id="modal-title">Draft message</h3>
-          <button id="close-modal" class="ghost-button" type="button" aria-label="Close modal">Close</button>
+          <h3 id="modal-title" data-i18n="modalTitle">Draft message</h3>
+          <button id="close-modal" class="ghost-button" type="button" aria-label="Close modal" data-i18n="closeModal">Close</button>
         </div>
         <p class="muted" id="modal-context"></p>
+        <label for="modal-text" class="visually-hidden" data-i18n="modalTextLabel">Draft message</label>
         <textarea id="modal-text" rows="10"></textarea>
         <div class="modal-actions">
-          <button id="copy-modal" class="secondary" type="button">Copy text</button>
+          <button id="copy-modal" class="secondary" type="button" data-i18n="copyText">Copy text</button>
         </div>
       </div>
     </div>
