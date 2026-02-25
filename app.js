@@ -10,6 +10,7 @@ const storageKeys = {
 };
 
 const elements = {
+  main: document.getElementById("main"),
   welcome: document.getElementById("welcome"),
   intake: document.getElementById("intake"),
   plan: document.getElementById("plan"),
@@ -54,26 +55,32 @@ const translations = {
     countyLabel: "County",
     countyPlaceholder: "Select your county",
     concernLabel: "Main concern (optional)",
-    concernPlaceholder: "e.g., childcare, food help, IEP, counseling",
+    concernPlaceholder: "e.g., elder care, disability support, childcare, food help, counseling",
     concernHelp:
-      "We'll match keywords to support categories (for example: food, childcare, IEP, therapy).",
+      "We'll match keywords to support categories (for example: elder care, disability support, food, childcare, therapy).",
     situationLabel: "Describe your situation (optional)",
     situationPlaceholder: "Share details about your situation, barriers, and what help you need.",
     situationHelp:
       "We'll use this paragraph to improve keyword matching and suggest better resources.",
-    ageRangeLegend: "Child age range",
+    ageRangeLegend: "Age range of the person you're caring for",
     ageRange0to2: "0–2",
     ageRange3to5: "3–5",
     ageRange6to12: "6–12",
-    ageRange13to18: "13–18",
+    ageRange13to17: "13–17",
+    ageRange18plus: "18+ (adult dependent)",
     needsLegend: "Support needs",
     needHealthcare: "Healthcare",
-    needChildcare: "Childcare/ECE",
+    needChildcare: "Child Care & Early Education",
     needSchoolSupport: "School Support",
     needFoodAssistance: "Food & Financial Assistance",
+    needHousingUtilities: "Housing & Utilities Assistance",
+    needDisabilityServices: "Disability & Special Needs Services",
+    needLegalAdvocacy: "Legal & Advocacy Support",
+    needTransportation: "Transportation Assistance",
+    needCaregiverEducation: "Caregiver Education",
     needMentalHealth: "Mental Health",
-    needAfterSchool: "After-school",
-    needEmployment: "Employment & Training",
+    needAfterSchool: "After-School Programs",
+    needEmployment: "Employment and Training",
     caregiverStatusLabel: "Caregiver status",
     caregiverStatusPlaceholder: "Select status",
     caregiverWorkingFull: "Working full-time",
@@ -100,8 +107,9 @@ const translations = {
     planNextSteps: "Next steps:",
     planOfficialLink: "Official link:",
     summaryCounty: "County",
-    summaryAge: "Age range",
+    summaryAge: "Care recipient",
     summaryStatus: "Caregiver status",
+    summaryConcern: "Main concern",
     summaryNotes: "Situation details considered",
     modalContext: "Template based on {{need}} support in {{county}} County.",
     copySuccess: "Copied",
@@ -124,25 +132,31 @@ const translations = {
     countyLabel: "Condado",
     countyPlaceholder: "Selecciona tu condado",
     concernLabel: "Preocupación principal (opcional)",
-    concernPlaceholder: "p. ej., cuidado infantil, comida, IEP, consejería",
+    concernPlaceholder: "p. ej., cuidado de adultos mayores, discapacidad, cuidado infantil, comida, consejería",
     concernHelp:
-      "Relacionaremos palabras clave con categorías de apoyo (por ejemplo: comida, cuidado infantil, IEP, terapia).",
+      "Relacionaremos palabras clave con categorías de apoyo (por ejemplo: adultos mayores, discapacidad, comida, cuidado infantil, terapia).",
     situationLabel: "Describe tu situación (opcional)",
     situationPlaceholder: "Comparte detalles sobre tu situación, barreras y la ayuda que necesitas.",
     situationHelp:
       "Usaremos este párrafo para mejorar la coincidencia de palabras clave y sugerir mejores recursos.",
-    ageRangeLegend: "Rango de edad del niño",
+    ageRangeLegend: "Rango de edad de la persona bajo tu cuidado",
     ageRange0to2: "0–2",
     ageRange3to5: "3–5",
     ageRange6to12: "6–12",
-    ageRange13to18: "13–18",
+    ageRange13to17: "13–17",
+    ageRange18plus: "18+ (adulto dependiente)",
     needsLegend: "Necesidades de apoyo",
     needHealthcare: "Salud",
-    needChildcare: "Cuidado infantil/Educación temprana",
+    needChildcare: "Cuidado infantil y educación temprana",
     needSchoolSupport: "Apoyo escolar",
     needFoodAssistance: "Comida y ayuda financiera",
+    needHousingUtilities: "Vivienda y servicios públicos",
+    needDisabilityServices: "Servicios para discapacidad y necesidades especiales",
+    needLegalAdvocacy: "Apoyo legal y defensa",
+    needTransportation: "Asistencia de transporte",
+    needCaregiverEducation: "Educación para cuidadores",
     needMentalHealth: "Salud mental",
-    needAfterSchool: "Después de la escuela",
+    needAfterSchool: "Programas después de la escuela",
     needEmployment: "Empleo y capacitación",
     caregiverStatusLabel: "Situación del cuidador",
     caregiverStatusPlaceholder: "Selecciona una opción",
@@ -170,8 +184,9 @@ const translations = {
     planNextSteps: "Próximos pasos:",
     planOfficialLink: "Enlace oficial:",
     summaryCounty: "Condado",
-    summaryAge: "Rango de edad",
+    summaryAge: "Persona bajo cuidado",
     summaryStatus: "Situación del cuidador",
+    summaryConcern: "Preocupación principal",
     summaryNotes: "Se consideraron detalles de la situación",
     modalContext: "Plantilla basada en apoyo de {{need}} en el condado de {{county}}.",
     copySuccess: "Copiado",
@@ -193,12 +208,17 @@ const caregiverStatusLabels = {
 
 const needLabels = {
   Healthcare: { en: "Healthcare", es: "Salud" },
-  "Childcare/ECE": { en: "Childcare/ECE", es: "Cuidado infantil/Educación temprana" },
+  "Childcare/ECE": { en: "Child Care & Early Education", es: "Cuidado infantil y educación temprana" },
   "School Support": { en: "School Support", es: "Apoyo escolar" },
   "Food & Financial Assistance": { en: "Food & Financial Assistance", es: "Comida y ayuda financiera" },
+  "Housing & Utilities Assistance": { en: "Housing & Utilities Assistance", es: "Vivienda y servicios públicos" },
+  "Disability & Special Needs Services": { en: "Disability & Special Needs Services", es: "Servicios para discapacidad y necesidades especiales" },
+  "Legal & Advocacy Support": { en: "Legal & Advocacy Support", es: "Apoyo legal y defensa" },
+  "Transportation Assistance": { en: "Transportation Assistance", es: "Asistencia de transporte" },
+  "Caregiver Education": { en: "Caregiver Education", es: "Educación para cuidadores" },
   "Mental Health": { en: "Mental Health", es: "Salud mental" },
-  "After-school": { en: "After-school", es: "Después de la escuela" },
-  "Employment & Training": { en: "Employment & Training", es: "Empleo y capacitación" }
+  "After-school": { en: "After-School Programs", es: "Programas después de la escuela" },
+  "Employment & Training": { en: "Employment and Training", es: "Empleo y capacitación" }
 };
 
 const supportNeedTemplates = {
@@ -250,6 +270,7 @@ function showSection(section) {
   [elements.welcome, elements.intake, elements.plan].forEach((el) => {
     el.classList.toggle("hidden", el !== section);
   });
+  elements.main.classList.toggle("welcome-layout", section === elements.welcome);
 }
 
 function t(key) {
@@ -316,6 +337,26 @@ const concernKeywords = {
   "Food & Financial Assistance": [
     "food", "snap", "wic", "tanf", "cash", "rent", "utility", "liheap", "benefits", "groceries",
     "comida", "ayuda", "renta", "servicios", "beneficios", "alimentos"
+  ],
+  "Housing & Utilities Assistance": [
+    "housing", "rent", "eviction", "homeless", "shelter", "mortgage", "utility", "heating", "electric", "water", "liheap",
+    "vivienda", "alquiler", "desalojo", "sin hogar", "refugio", "hipoteca", "servicios publicos", "calefaccion", "electricidad", "agua", "liheap"
+  ],
+  "Disability & Special Needs Services": [
+    "disability", "special needs", "autism", "intellectual disability", "developmental disability", "waiver", "ovr", "accesibility",
+    "discapacidad", "necesidades especiales", "autismo", "discapacidad intelectual", "desarrollo", "exencion", "ovr", "accesibilidad"
+  ],
+  "Legal & Advocacy Support": [
+    "legal", "lawyer", "attorney", "rights", "advocacy", "complaint", "discrimination", "hearing", "appeal", "ombudsman",
+    "legal", "abogado", "derechos", "defensa", "queja", "discriminacion", "audiencia", "apelacion", "ombudsman"
+  ],
+  "Transportation Assistance": [
+    "transportation", "transit", "bus", "shared ride", "paratransit", "ride", "commute", "medical transport",
+    "transporte", "transito", "autobus", "viaje compartido", "paratransito", "traslado medico"
+  ],
+  "Caregiver Education": [
+    "caregiver training", "caregiver education", "family training", "caregiving classes", "parenting class", "resource center", "support group",
+    "formacion para cuidadores", "educacion para cuidadores", "entrenamiento familiar", "clases para cuidadores", "grupo de apoyo"
   ],
   "Mental Health": [
     "counseling", "therapy", "mental health", "behavioral", "stress", "crisis", "988", "anxiety", "depression",
@@ -393,7 +434,14 @@ function pickPlanItems(county, needs) {
 }
 
 function renderPlan(selections) {
-  const { county, ageRange, caregiverStatus, needs, concernText, situationText } = selections;
+  const {
+    county,
+    ageRange,
+    caregiverStatus,
+    needs,
+    concernText,
+    situationText,
+  } = selections;
   const planItems = pickPlanItems(county, normalizeNeeds(needs));
 
   elements.planList.innerHTML = "";
@@ -420,7 +468,10 @@ function renderPlan(selections) {
     `${t("summaryAge")}: ${ageRange}`,
     `${t("summaryStatus")}: ${statusLabel}`,
   ];
-  if (concernText || situationText) {
+  if (concernText) {
+    summaryParts.push(`${t("summaryConcern")}: ${concernText}`);
+  }
+  if (situationText) {
     summaryParts.push(t("summaryNotes"));
   }
   elements.planSummary.textContent = summaryParts.join(" · ");
@@ -520,9 +571,11 @@ function handleSubmit(event) {
   const needs = formData.getAll("needs");
   const concernText = (formData.get("concern") || "").trim();
   const situationText = (formData.get("situation") || "").trim();
-  const combinedText = `${concernText} ${situationText}`.trim();
-  const matchedNeeds = matchConcernToNeeds(combinedText);
-  const finalNeeds = Array.from(new Set([...needs, ...matchedNeeds]));
+  const matchedConcernNeeds = matchConcernToNeeds(concernText);
+  const matchedSituationNeeds = matchConcernToNeeds(situationText);
+  const finalNeeds = Array.from(
+    new Set([...needs, ...matchedConcernNeeds, ...matchedSituationNeeds])
+  );
 
   if (!county || !ageRange || !caregiverStatus) {
     elements.formError.textContent = t("formError");
@@ -551,6 +604,7 @@ function handleSubmit(event) {
 }
 
 function init() {
+  showSection(elements.welcome);
   elements.startButton.addEventListener("click", () => showSection(elements.intake));
   elements.intakeForm.addEventListener("submit", handleSubmit);
   elements.printPlan.addEventListener("click", () => window.print());

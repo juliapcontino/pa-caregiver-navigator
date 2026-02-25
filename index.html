@@ -11,29 +11,16 @@
 
     <header class="site-header" role="banner">
       <div class="header-inner">
-        <img
-          src="pa-logo.svg"
-          alt="PA Caregiver Navigator logo"
-          class="logo"
-        />
-        <!-- Replace pa-logo.svg with an updated official logo asset if needed. -->
-        <div>
-          <p class="eyebrow" data-i18n="appName">PA Caregiver Navigator</p>
-          <p class="subtitle" data-i18n="appSubtitle">Find local supports tailored to your family.</p>
+        <div class="portal-brand" aria-label="PA Caregiver Navigator">
+          <svg class="brand-icon" viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+            <path d="M60 12L103 30V66C103 87 84 105 60 108C36 105 17 87 17 66V30L60 12Z" fill="none" stroke="currentColor" stroke-width="6"/>
+            <path d="M60 78C53 72 40 62 40 51C40 43 46 37 54 37C58 37 61 39 63 42C65 39 68 37 72 37C80 37 86 43 86 51C86 62 73 72 66 78L63 80C62 81 61 81 60 81C59 81 58 81 57 80L60 78Z" fill="currentColor"/>
+            <path d="M35 84C42 89 50 92 60 93C70 92 78 89 85 84" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+          </svg>
+          <div class="brand-text">
+            <p class="brand-name">PA Caregiver Navigator</p>
+          </div>
         </div>
-      </div>
-      <div class="header-actions">
-        <div class="language-switch" role="group" aria-label="Language">
-          <button id="language-en" class="secondary language-button" type="button" aria-pressed="true">
-            English
-          </button>
-          <button id="language-es" class="secondary language-button" type="button" aria-pressed="false">
-            Español
-          </button>
-        </div>
-        <button id="clear-session" class="ghost-button" type="button" data-i18n="clearSession">
-          Clear session
-        </button>
       </div>
     </header>
 
@@ -50,6 +37,17 @@
       </section>
 
       <section id="intake" class="card hidden" aria-labelledby="intake-title">
+        <div class="form-tools-top" aria-label="Language controls">
+          <div class="language-switch" role="group" aria-label="Language">
+            <button id="language-en" class="secondary language-button" type="button" aria-pressed="true">
+              English
+            </button>
+            <button id="language-es" class="secondary language-button" type="button" aria-pressed="false">
+              Español
+            </button>
+          </div>
+        </div>
+
         <h2 id="intake-title" data-i18n="intakeTitle">Tell us a little about your situation</h2>
         <form id="intake-form" novalidate>
           <div id="form-error" class="form-error" role="alert" aria-live="assertive"></div>
@@ -127,28 +125,46 @@
             </select>
           </div>
 
-          <fieldset id="age-range-fieldset" class="form-group">
-            <legend data-i18n="ageRangeLegend">Child age range</legend>
-            <div class="option-list">
-              <label><input type="radio" name="ageRange" value="0-2" required /> <span data-i18n="ageRange0to2">0–2</span></label>
-              <label><input type="radio" name="ageRange" value="3-5" /> <span data-i18n="ageRange3to5">3–5</span></label>
-              <label><input type="radio" name="ageRange" value="6-12" /> <span data-i18n="ageRange6to12">6–12</span></label>
-              <label><input type="radio" name="ageRange" value="13-18" /> <span data-i18n="ageRange13to18">13–18</span></label>
-            </div>
-          </fieldset>
-
           <fieldset id="needs-fieldset" class="form-group">
             <legend data-i18n="needsLegend">Support needs</legend>
             <div class="option-list">
               <label><input type="checkbox" name="needs" value="Healthcare" /> <span data-i18n="needHealthcare">Healthcare</span></label>
-              <label><input type="checkbox" name="needs" value="Childcare/ECE" /> <span data-i18n="needChildcare">Childcare/ECE</span></label>
+              <label><input type="checkbox" name="needs" value="Childcare/ECE" /> <span data-i18n="needChildcare">Child Care & Early Education</span></label>
               <label><input type="checkbox" name="needs" value="School Support" /> <span data-i18n="needSchoolSupport">School Support</span></label>
               <label><input type="checkbox" name="needs" value="Food & Financial Assistance" /> <span data-i18n="needFoodAssistance">Food & Financial Assistance</span></label>
+              <label><input type="checkbox" name="needs" value="Housing & Utilities Assistance" /> <span data-i18n="needHousingUtilities">Housing & Utilities Assistance</span></label>
+              <label><input type="checkbox" name="needs" value="Disability & Special Needs Services" /> <span data-i18n="needDisabilityServices">Disability & Special Needs Services</span></label>
+              <label><input type="checkbox" name="needs" value="Legal & Advocacy Support" /> <span data-i18n="needLegalAdvocacy">Legal & Advocacy Support</span></label>
+              <label><input type="checkbox" name="needs" value="Transportation Assistance" /> <span data-i18n="needTransportation">Transportation Assistance</span></label>
+              <label><input type="checkbox" name="needs" value="Caregiver Education" /> <span data-i18n="needCaregiverEducation">Caregiver Education</span></label>
               <label><input type="checkbox" name="needs" value="Mental Health" /> <span data-i18n="needMentalHealth">Mental Health</span></label>
-              <label><input type="checkbox" name="needs" value="After-school" /> <span data-i18n="needAfterSchool">After-school</span></label>
-              <label><input type="checkbox" name="needs" value="Employment & Training" /> <span data-i18n="needEmployment">Employment & Training</span></label>
+              <label><input type="checkbox" name="needs" value="After-school" /> <span data-i18n="needAfterSchool">After-School Programs</span></label>
+              <label><input type="checkbox" name="needs" value="Employment & Training" /> <span data-i18n="needEmployment">Employment and Training</span></label>
             </div>
           </fieldset>
+
+          <fieldset id="age-range-fieldset" class="form-group">
+            <legend data-i18n="ageRangeLegend">Age range of the person you're caring for</legend>
+            <div class="option-list">
+              <label><input type="radio" name="ageRange" value="0-2" required /> <span data-i18n="ageRange0to2">0–2</span></label>
+              <label><input type="radio" name="ageRange" value="3-5" /> <span data-i18n="ageRange3to5">3–5</span></label>
+              <label><input type="radio" name="ageRange" value="6-12" /> <span data-i18n="ageRange6to12">6–12</span></label>
+              <label><input type="radio" name="ageRange" value="13-17" /> <span data-i18n="ageRange13to17">13–17</span></label>
+              <label><input type="radio" name="ageRange" value="18+ (adult dependent)" /> <span data-i18n="ageRange18plus">18+ (adult dependent)</span></label>
+            </div>
+          </fieldset>
+
+          <div class="form-group">
+            <label for="caregiver-status" data-i18n="caregiverStatusLabel">Caregiver status</label>
+            <select id="caregiver-status" name="caregiverStatus" required>
+              <option value="" disabled selected data-i18n="caregiverStatusPlaceholder">Select status</option>
+              <option value="Working full-time" data-i18n="caregiverWorkingFull">Working full-time</option>
+              <option value="Part-time" data-i18n="caregiverPartTime">Part-time</option>
+              <option value="Seeking" data-i18n="caregiverSeeking">Seeking</option>
+              <option value="Student" data-i18n="caregiverStudent">Student</option>
+              <option value="Staying home" data-i18n="caregiverStayingHome">Staying home</option>
+            </select>
+          </div>
 
           <div class="form-group">
             <label for="situation" data-i18n="situationLabel">Describe your situation (optional)</label>
@@ -166,33 +182,26 @@
           </div>
 
           <div class="form-group">
-            <label for="caregiver-status" data-i18n="caregiverStatusLabel">Caregiver status</label>
-            <select id="caregiver-status" name="caregiverStatus" required>
-              <option value="" disabled selected data-i18n="caregiverStatusPlaceholder">Select status</option>
-              <option value="Working full-time" data-i18n="caregiverWorkingFull">Working full-time</option>
-              <option value="Part-time" data-i18n="caregiverPartTime">Part-time</option>
-              <option value="Seeking" data-i18n="caregiverSeeking">Seeking</option>
-              <option value="Student" data-i18n="caregiverStudent">Student</option>
-              <option value="Staying home" data-i18n="caregiverStayingHome">Staying home</option>
-            </select>
-          </div>
-
-          <div class="form-group">
             <label for="concern" data-i18n="concernLabel">Main concern (optional)</label>
             <input
               id="concern"
               name="concern"
               type="text"
-              placeholder="e.g., childcare, food help, IEP, counseling"
+              placeholder="e.g., elder care, disability support, childcare, food help, counseling"
               aria-describedby="concern-help"
               data-i18n-placeholder="concernPlaceholder"
             />
             <p id="concern-help" class="helper" data-i18n="concernHelp">
-              We'll match keywords to support categories (for example: food, childcare, IEP, therapy).
+              We'll match keywords to support categories (for example: elder care, disability support, food, childcare, therapy).
             </p>
           </div>
 
-          <button class="primary" type="submit" data-i18n="generatePlan">Generate plan</button>
+          <div class="form-actions">
+            <button class="primary" type="submit" data-i18n="generatePlan">Generate plan</button>
+            <button id="clear-session" class="ghost-button" type="button" data-i18n="clearSession">
+              Clear session
+            </button>
+          </div>
         </form>
       </section>
 

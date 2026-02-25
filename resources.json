@@ -307,6 +307,112 @@
         "nextSteps": "Use workforce resources to find local programs and career planning help.",
         "officialLink": "https://www.pa.gov/agencies/dli/programs-services/workforce-development-home/pa-careerlink-"
       }
+    ],
+    "Housing & Utilities Assistance": [
+      {
+        "title": "Housing & Utilities Programs Overview",
+        "description": "Find Pennsylvania housing supports, homeless assistance, and utility-help resources.",
+        "nextSteps": "Review statewide housing and utilities options, then contact your county office for enrollment.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/programs-services/housing-utilities"
+      },
+      {
+        "title": "Apply for LIHEAP",
+        "description": "Heating assistance grants to help eligible households pay home energy bills.",
+        "nextSteps": "Apply through COMPASS during the LIHEAP season and submit required household details.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-low-income-home-energy-assistance-program-liheap"
+      },
+      {
+        "title": "Apply for Emergency Shelter Allowance (ESA)",
+        "description": "Short-term support for Pennsylvanians facing eviction, foreclosure, or homelessness.",
+        "nextSteps": "Call your local county assistance office and provide documentation of the housing emergency.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-emergency-shelter-allowance-esa.html"
+      }
+    ],
+    "Disability & Special Needs Services": [
+      {
+        "title": "Intellectual Disabilities & Autism Services",
+        "description": "Pennsylvania resources and service pathways for individuals with intellectual disabilities and autism.",
+        "nextSteps": "Contact your county MH/ID office and request supports coordination.",
+        "officialLink": "https://www.pa.gov/agencies/dhs/programs-services/intellectual-disabilities.html"
+      },
+      {
+        "title": "Request a Medicaid Community Living Waiver",
+        "description": "Waiver services that support community living for eligible individuals with disabilities.",
+        "nextSteps": "Contact ODP or your county program office to start waiver eligibility steps.",
+        "officialLink": "https://www.pa.gov/services/dhs/request-a-medicaid-community-living-waiver"
+      },
+      {
+        "title": "Apply for Community HealthChoices (CHC)",
+        "description": "Long-term services and supports for eligible adults, including adults with physical disabilities.",
+        "nextSteps": "Call your county assistance office to apply and complete eligibility review.",
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-community-healthchoices.html"
+      },
+      {
+        "title": "Apply for Vocational Rehabilitation Services",
+        "description": "Employment and independent-living supports for Pennsylvanians with disabilities.",
+        "nextSteps": "Apply online or contact your local OVR district office.",
+        "officialLink": "https://www.pa.gov/services/dli/apply-for-vocational-rehabilitation-services.html"
+      }
+    ],
+    "Legal & Advocacy Support": [
+      {
+        "title": "Older Pennsylvanians Legal Assistance Program",
+        "description": "Free legal services for eligible older adults, including advice and representation.",
+        "nextSteps": "Contact the program through the Aging service page to discuss your legal issue.",
+        "officialLink": "https://www.pa.gov/services/aging/apply-for-the-older-pennsylvanians-legal-assistance-program"
+      },
+      {
+        "title": "File a Discrimination Complaint (PHRC)",
+        "description": "File complaints related to discrimination in employment, housing, education, and public spaces.",
+        "nextSteps": "Contact PHRC and submit the applicable complaint intake materials.",
+        "officialLink": "https://www.pa.gov/agencies/phrc/programs-and-services/file-a-complaint.html"
+      },
+      {
+        "title": "Consumer Complaints",
+        "description": "Find complaint pathways for utilities, financial services, insurance, and more.",
+        "nextSteps": "Choose the complaint type on the statewide portal and submit required details.",
+        "officialLink": "https://www.pa.gov/consumer-complaints"
+      }
+    ],
+    "Transportation Assistance": [
+      {
+        "title": "Apply for Find My Ride Transportation Assistance",
+        "description": "Apply online for low-cost transportation programs for seniors, people with disabilities, and Medical Assistance recipients.",
+        "nextSteps": "Use Find My Ride Apply and select your county providers.",
+        "officialLink": "https://www.pa.gov/services/penndot/apply-for-the-find-my-ride-transportation-assistance-program"
+      },
+      {
+        "title": "Schedule a Ride with Find My Ride",
+        "description": "Find local shared-ride and fixed-route transportation services in Pennsylvania.",
+        "nextSteps": "Schedule online or contact your county transportation provider.",
+        "officialLink": "https://www.pa.gov/services/penndot/schedule-a-ride-with-the-find-my-ride-transportation-assistance-program"
+      },
+      {
+        "title": "Transit Options for Seniors and Persons with Disabilities",
+        "description": "Program details for free transit and discounted shared-ride options.",
+        "nextSteps": "Review eligibility and contact your local transit operator for enrollment.",
+        "officialLink": "https://www.pa.gov/en/agencies/penndot/traveling-in-pa/public-transit-options/seniors-and-persons-with-disabilities.html"
+      }
+    ],
+    "Caregiver Education": [
+      {
+        "title": "PA CareKit",
+        "description": "Caregiving education tools, planning resources, and self-guided support.",
+        "nextSteps": "Use PA CareKit resources and complete the needs quiz for personalized guidance.",
+        "officialLink": "https://www.pa.gov/agencies/aging/pa-carekit"
+      },
+      {
+        "title": "Apply for the Caregiver Support Program",
+        "description": "Program that includes caregiver education, training, respite, and care management.",
+        "nextSteps": "Find your local Area Agency on Aging and request caregiver program enrollment.",
+        "officialLink": "https://www.pa.gov/services/aging/apply-for-the-caregiver-support-program"
+      },
+      {
+        "title": "Caregiver Support Program Overview",
+        "description": "Learn eligibility and available caregiver training and support services.",
+        "nextSteps": "Review program details and contact your local AAA for next steps.",
+        "officialLink": "https://www.pa.gov/agencies/aging/aging-programs-and-services/caregiver-support-program"
+      }
     ]
   },
   "Philadelphia": {
