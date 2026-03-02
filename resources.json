@@ -5,49 +5,57 @@
         "title": "Apply for Medicaid Benefits (Medical Assistance)",
         "description": "Coverage options for children and caregivers, including Medical Assistance.",
         "nextSteps": "Apply online through COMPASS or contact your county assistance office.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-medicaid-benefits.html"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-medicaid-benefits.html",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Apply for Children's Health Insurance Program (CHIP)",
         "description": "Low-cost or free health coverage for children and teens.",
         "nextSteps": "Apply through COMPASS or call the CHIP helpline for support.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-childrens-health-insurance-program-chip.html"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-childrens-health-insurance-program-chip.html",
+        "contactPhone": "1-800-986-5437"
       },
       {
         "title": "Apply for Medical Assistance for Workers with Disabilities (MAWD)",
         "description": "Medicaid coverage that supports employed Pennsylvanians with disabilities.",
         "nextSteps": "Contact your county assistance office or apply through COMPASS.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-medical-assistance-for-workers-with-disabilities-mawd"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-medical-assistance-for-workers-with-disabilities-mawd",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Apply for Children's Health Care",
         "description": "Application options for children's health coverage, including CHIP and Medicaid.",
         "nextSteps": "Apply online, by phone, or by mail using the DHS guidance.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/resources/chip/eligibility-and-benefits/apply-for-childrens-health-care"
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/chip/eligibility-and-benefits/apply-for-childrens-health-care",
+        "contactPhone": "1-800-986-5437"
       },
       {
         "title": "Request a Pre-Application Appointment with a WIC Specialist",
         "description": "Schedule support to understand WIC eligibility and enrollment steps.",
         "nextSteps": "Book a pre-application appointment and gather household information.",
-        "officialLink": "https://www.pa.gov/services/health/request-a-pre-application-appointment-with-a-wic-specialist"
+        "officialLink": "https://www.pa.gov/services/health/request-a-pre-application-appointment-with-a-wic-specialist",
+        "contactPhone": "877-724-3258"
       },
       {
         "title": "WIC Program Information",
         "description": "Learn about nutrition, breastfeeding support, and healthy food benefits through WIC.",
         "nextSteps": "Review program details and contact your local WIC clinic to enroll.",
-        "officialLink": "https://www.pa.gov/agencies/health/programs/maternal-health-and-infant-care/wic.html"
+        "officialLink": "https://www.pa.gov/agencies/health/programs/maternal-health-and-infant-care/wic.html",
+        "contactPhone": "877-724-3258"
       },
       {
         "title": "CHIP Coverage and Benefits",
         "description": "Review covered services and key details for CHIP health coverage.",
         "nextSteps": "Check benefit details to choose the right coverage for your child.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/resources/chip/chip-coverage.html"
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/chip/chip-coverage.html",
+        "contactPhone": "1-800-986-5437"
       },
       {
         "title": "Renew CHIP Coverage",
         "description": "Guidance on keeping CHIP coverage active when it is time to renew.",
         "nextSteps": "Follow renewal steps and submit requested documents before deadlines.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/resources/chip/eligibility-and-benefits/renew-chip"
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/chip/eligibility-and-benefits/renew-chip",
+        "contactPhone": "1-800-986-5437"
       }
     ],
     "Childcare/ECE": [
@@ -55,55 +63,64 @@
         "title": "Child Care Works (Subsidized Child Care)",
         "description": "Help paying for childcare while working, training, or in school.",
         "nextSteps": "Contact your Early Learning Resource Center (ELRC) to start an application.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-child-care-works-subsidized-child-care"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-child-care-works-subsidized-child-care",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Find an Early Learning Resource Center (ELRC)",
         "description": "Local hubs for child care referrals, quality info, and Child Care Works support.",
         "nextSteps": "Find your ELRC by county and contact them for help.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/resources/early-learning-child-care/elrc"
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/early-learning-child-care/elrc",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "File a Child Care Facility Complaint",
         "description": "Report concerns about regulated child care facilities.",
         "nextSteps": "Submit an online complaint or contact your regional child development office.",
-        "officialLink": "https://www.pa.gov/services/dhs/file-a-child-care-facility-complaint"
+        "officialLink": "https://www.pa.gov/services/dhs/file-a-child-care-facility-complaint",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Request a Child Abuse History Clearance",
         "description": "Required clearance for many people working or volunteering with children.",
         "nextSteps": "Request a clearance online through CWIS or submit by mail.",
-        "officialLink": "https://www.pa.gov/services/dhs/request-a-child-abuse-history-clearance"
+        "officialLink": "https://www.pa.gov/services/dhs/request-a-child-abuse-history-clearance",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Request a National Sex Offender Registry Verification",
         "description": "Verification letter required for many child care providers and relatives.",
         "nextSteps": "Download and submit the verification request.",
-        "officialLink": "https://www.pa.gov/services/dhs/request-a-national-sex-offender-registry-verification-for-child"
+        "officialLink": "https://www.pa.gov/services/dhs/request-a-national-sex-offender-registry-verification-for-child",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Pennsylvania State Police Criminal History Record Check",
         "description": "Criminal background check (PATCH) required for many child-serving roles.",
         "nextSteps": "Submit an online PATCH request or use the paper process.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/resources/keep-kids-safe/child-abuse-clearances/criminal-background-check"
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/keep-kids-safe/child-abuse-clearances/criminal-background-check",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Early Learning and Child Care Resources",
         "description": "State resources for early learning programs, provider search, and family guidance.",
         "nextSteps": "Review available early learning supports and connect with local contacts.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/resources/early-learning-child-care"
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/early-learning-child-care",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Keep Kids Safe: Child Abuse Clearances",
         "description": "Overview of child abuse clearances needed for child-serving roles.",
         "nextSteps": "Identify required clearances and complete submissions online.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/resources/keep-kids-safe/child-abuse-clearances"
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/keep-kids-safe/child-abuse-clearances",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Office of Child Development and Early Learning",
         "description": "Program hub for child care licensing, quality improvement, and family supports.",
         "nextSteps": "Explore OCDEL resources and contact regional offices for guidance.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/programs-services/children-and-families/office-of-child-development-and-early-learning"
+        "officialLink": "https://www.pa.gov/agencies/dhs/programs-services/children-and-families/office-of-child-development-and-early-learning",
+        "contactPhone": "1-800-692-7462"
       }
     ],
     "School Support": [
@@ -111,43 +128,50 @@
         "title": "Special Education ConsultLine",
         "description": "Information and guidance on special education rights, IEPs, and 504s.",
         "nextSteps": "Call ConsultLine to discuss your concern and next steps with your school.",
-        "officialLink": "https://www.pa.gov/services/education/call-the-special-education-in-pa-consultline"
+        "officialLink": "https://www.pa.gov/services/education/call-the-special-education-in-pa-consultline",
+        "contactPhone": "717-783-6788"
       },
       {
         "title": "Student Assistance Program (SAP)",
         "description": "School-based team process to remove barriers to learning, including mental health.",
         "nextSteps": "Ask your school about SAP supports and referrals.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/resources/for-residents/student-assistance-program"
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/for-residents/student-assistance-program",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Report Child Abuse or Neglect",
         "description": "ChildLine hotline for concerns about child safety and wellbeing.",
         "nextSteps": "Call ChildLine or use the online reporting options.",
-        "officialLink": "https://www.pa.gov/services/dhs/report-child-abuse-or-neglect"
+        "officialLink": "https://www.pa.gov/services/dhs/report-child-abuse-or-neglect",
+        "contactPhone": "1-800-932-0313"
       },
       {
         "title": "PA EmpowerU",
         "description": "Resource hub for Pennsylvania students facing basic needs challenges.",
         "nextSteps": "Explore resources for mental health, food, housing, and financial supports.",
-        "officialLink": "https://www.pa.gov/agencies/education/resources/student/empoweru.html"
+        "officialLink": "https://www.pa.gov/agencies/education/resources/student/empoweru.html",
+        "contactPhone": "717-783-6788"
       },
       {
         "title": "PA Special Education Resources",
         "description": "State information on special education services, rights, and supports.",
         "nextSteps": "Use the resource hub to prepare for meetings and advocate for services.",
-        "officialLink": "https://www.pa.gov/en/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/special-education.html"
+        "officialLink": "https://www.pa.gov/en/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/special-education.html",
+        "contactPhone": "717-783-6788"
       },
       {
         "title": "Elementary and Secondary Education Programs",
         "description": "Pennsylvania education programs and school support information for families.",
         "nextSteps": "Review available academic and student support programs.",
-        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education"
+        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education",
+        "contactPhone": "717-783-6788"
       },
       {
         "title": "National School Lunch Program",
         "description": "School meal program information and eligibility guidance for families.",
         "nextSteps": "Contact your school district to apply for meal benefits.",
-        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/schools/food-and-nutrition/programs/national-school-lunch-program.html"
+        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/schools/food-and-nutrition/programs/national-school-lunch-program.html",
+        "contactPhone": "717-783-6788"
       }
     ],
     "Food & Financial Assistance": [
@@ -155,55 +179,64 @@
         "title": "Apply for SNAP",
         "description": "Monthly benefits that help families buy groceries.",
         "nextSteps": "Submit a SNAP application online or in person at your county assistance office.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-supplemental-nutrition-assistance-program-snap"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-supplemental-nutrition-assistance-program-snap",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Apply for LIHEAP (Home Energy Assistance)",
         "description": "Cash grants to help pay heating bills during the cold season.",
         "nextSteps": "Apply online through COMPASS during the open season.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-low-income-home-energy-assistance-program-liheap"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-low-income-home-energy-assistance-program-liheap",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Apply for Cash Assistance",
         "description": "Temporary financial help for families in need.",
         "nextSteps": "Apply through COMPASS, by phone, or in person at your CAO.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-cash-assistance"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-cash-assistance",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Apply for Child Support Services",
         "description": "Manage, establish, or update child support services and requests.",
         "nextSteps": "Register on the PA Child Support website to submit a request.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-child-support-services"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-child-support-services",
+        "contactPhone": "1-800-932-0211"
       },
       {
         "title": "Apply for Benefits (COMPASS)",
         "description": "Apply for or renew DHS benefits like SNAP, Medicaid, or cash assistance.",
         "nextSteps": "Use COMPASS online or visit a county assistance office.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/programs-services/apply-for-benefits"
+        "officialLink": "https://www.pa.gov/agencies/dhs/programs-services/apply-for-benefits",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "MyCOMPASS PA Mobile App",
         "description": "Manage benefit applications, upload documents, and report changes.",
         "nextSteps": "Download the mobile app and sign in with your COMPASS account.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/contact/compass"
+        "officialLink": "https://www.pa.gov/agencies/dhs/contact/compass",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "SNAP Program Information",
         "description": "Program overview, eligibility details, and links for SNAP food assistance.",
         "nextSteps": "Review SNAP guidance and apply through available channels.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/resources/snap"
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/snap",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Pennsylvania Women, Infants and Children (WIC)",
         "description": "Nutrition and food support for eligible pregnant participants and children.",
         "nextSteps": "Find a local WIC clinic and complete enrollment steps.",
-        "officialLink": "https://www.pa.gov/agencies/health/programs/maternal-health-and-infant-care/wic.html"
+        "officialLink": "https://www.pa.gov/agencies/health/programs/maternal-health-and-infant-care/wic.html",
+        "contactPhone": "877-724-3258"
       },
       {
         "title": "Report Public Assistance Fraud",
         "description": "Report suspected fraud related to public assistance programs.",
         "nextSteps": "Submit a report through the state fraud reporting process.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/report-fraud.html"
+        "officialLink": "https://www.pa.gov/agencies/dhs/report-fraud.html",
+        "contactPhone": "1-800-692-7462"
       }
     ],
     "Mental Health": [
@@ -211,25 +244,29 @@
         "title": "988: Crisis Support",
         "description": "24/7 call, text, or chat support for behavioral health crises.",
         "nextSteps": "Call or text 988 if you or a loved one need immediate support.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder/988"
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder/988",
+        "contactPhone": "988"
       },
       {
         "title": "Get Suicide or Mental Health Crisis Help (988)",
         "description": "Immediate, confidential crisis support with local connections.",
         "nextSteps": "Call, text, or chat 988 to reach a trained counselor.",
-        "officialLink": "https://www.pa.gov/services/dhs/get-suicide-or-mental-health-crisis-help-988.html"
+        "officialLink": "https://www.pa.gov/services/dhs/get-suicide-or-mental-health-crisis-help-988.html",
+        "contactPhone": "988"
       },
       {
         "title": "Find Mental Health and Substance Use Services",
         "description": "Locate treatment and support services across Pennsylvania.",
         "nextSteps": "Search for local providers and call to confirm intake steps.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder/find-services"
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder/find-services",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Mental Health and Substance Use Disorder Resources",
         "description": "Statewide behavioral health resources, programs, and service navigation.",
         "nextSteps": "Use the state resource pages to identify local support options.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder"
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder",
+        "contactPhone": "1-800-692-7462"
       }
     ],
     "After-school": [
@@ -237,19 +274,22 @@
         "title": "21st Century Community Learning Centers",
         "description": "Federal after-school and summer learning programs for students.",
         "nextSteps": "Ask your school district about local 21st CCLC partners.",
-        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/21st-century-community-learning-centers.html"
+        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/21st-century-community-learning-centers.html",
+        "contactPhone": "717-783-6788"
       },
       {
         "title": "PDE K-12 Education Programs",
         "description": "Program hub with school-year and enrichment supports for students.",
         "nextSteps": "Review district and state options for out-of-school support.",
-        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education"
+        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education",
+        "contactPhone": "717-783-6788"
       },
       {
         "title": "PA EmpowerU Student Resource Hub",
         "description": "Student support resources including mental health, food, housing, and finances.",
         "nextSteps": "Browse resource categories and connect to available supports.",
-        "officialLink": "https://www.pa.gov/agencies/education/resources/student/empoweru.html"
+        "officialLink": "https://www.pa.gov/agencies/education/resources/student/empoweru.html",
+        "contactPhone": "717-783-6788"
       }
     ],
     "Employment & Training": [
@@ -257,55 +297,64 @@
         "title": "Find Jobs with PA CareerLink",
         "description": "Job search, training, and career services across Pennsylvania.",
         "nextSteps": "Locate your local PA CareerLink office and ask about training support.",
-        "officialLink": "https://www.pa.gov/services/dli/find-jobs-with-pa-careerlink-.html"
+        "officialLink": "https://www.pa.gov/services/dli/find-jobs-with-pa-careerlink-.html",
+        "contactPhone": "717-787-5279"
       },
       {
         "title": "Apply for Unemployment Compensation Benefits",
         "description": "Financial support for workers who are unemployed through no fault of their own.",
         "nextSteps": "File or manage your claim using the online UC system.",
-        "officialLink": "https://www.pa.gov/services/dli/apply-for-unemployment-compensation-benefits"
+        "officialLink": "https://www.pa.gov/services/dli/apply-for-unemployment-compensation-benefits",
+        "contactPhone": "717-787-5279"
       },
       {
         "title": "Find a Registered Apprenticeship Program",
         "description": "Earn while you learn in an apprenticeship program.",
         "nextSteps": "Connect with PA CareerLink to find local apprenticeship options.",
-        "officialLink": "https://www.pa.gov/services/dli/find-a-registered-apprenticeship-program.html"
+        "officialLink": "https://www.pa.gov/services/dli/find-a-registered-apprenticeship-program.html",
+        "contactPhone": "717-787-5279"
       },
       {
         "title": "Find a Registered Pre-Apprenticeship Program",
         "description": "Pre-apprenticeship programs prepare you for paid apprenticeships.",
         "nextSteps": "Visit PA CareerLink to identify and apply for a program.",
-        "officialLink": "https://www.pa.gov/services/dli/find-a-registered-pre-apprenticeship-program.html"
+        "officialLink": "https://www.pa.gov/services/dli/find-a-registered-pre-apprenticeship-program.html",
+        "contactPhone": "717-787-5279"
       },
       {
         "title": "Apply for Vocational Rehabilitation Services",
         "description": "Employment support and services for Pennsylvanians with disabilities.",
         "nextSteps": "Apply online or contact your local OVR district office.",
-        "officialLink": "https://www.pa.gov/en/services/dli/apply-for-vocational-rehabilitation-services.html"
+        "officialLink": "https://www.pa.gov/en/services/dli/apply-for-vocational-rehabilitation-services.html",
+        "contactPhone": "717-787-5279"
       },
       {
         "title": "File a Wage Payment and Collection Complaint",
         "description": "Request help when wages are unpaid or delayed under state labor law.",
         "nextSteps": "Submit the complaint form with employment and pay documentation.",
-        "officialLink": "https://www.pa.gov/services/dli/file-a-wage-payment-and-collection-complaint.html"
+        "officialLink": "https://www.pa.gov/services/dli/file-a-wage-payment-and-collection-complaint.html",
+        "contactPhone": "717-787-5279"
       },
       {
         "title": "File a Minimum Wage and Overtime Complaint",
         "description": "Report potential minimum wage or overtime violations.",
         "nextSteps": "File a complaint and provide details about hours and pay.",
-        "officialLink": "https://www.pa.gov/services/dli/file-a-minimum-wage-and-overtime-complaint"
+        "officialLink": "https://www.pa.gov/services/dli/file-a-minimum-wage-and-overtime-complaint",
+        "contactPhone": "717-787-5279"
       },
       {
         "title": "File a Prevailing Wage Complaint",
         "description": "Report prevailing wage concerns for public works projects.",
         "nextSteps": "Complete the complaint process and include project details.",
-        "officialLink": "https://www.pa.gov/services/dli/file-a-prevailing-wage-complaint.html"
+        "officialLink": "https://www.pa.gov/services/dli/file-a-prevailing-wage-complaint.html",
+        "contactPhone": "717-787-5279"
       },
       {
         "title": "PA CareerLink Workforce Development Services",
         "description": "State workforce services and connections to training and employment support.",
         "nextSteps": "Use workforce resources to find local programs and career planning help.",
-        "officialLink": "https://www.pa.gov/agencies/dli/programs-services/workforce-development-home/pa-careerlink-"
+        "officialLink": "https://www.pa.gov/agencies/dli/programs-services/workforce-development-home/pa-careerlink-",
+        "contactPhone": "717-787-5279"
       }
     ],
     "Housing & Utilities Assistance": [
@@ -313,19 +362,22 @@
         "title": "Housing & Utilities Programs Overview",
         "description": "Find Pennsylvania housing supports, homeless assistance, and utility-help resources.",
         "nextSteps": "Review statewide housing and utilities options, then contact your county office for enrollment.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/programs-services/housing-utilities"
+        "officialLink": "https://www.pa.gov/agencies/dhs/programs-services/housing-utilities",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Apply for LIHEAP",
         "description": "Heating assistance grants to help eligible households pay home energy bills.",
         "nextSteps": "Apply through COMPASS during the LIHEAP season and submit required household details.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-low-income-home-energy-assistance-program-liheap"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-low-income-home-energy-assistance-program-liheap",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Apply for Emergency Shelter Allowance (ESA)",
         "description": "Short-term support for Pennsylvanians facing eviction, foreclosure, or homelessness.",
         "nextSteps": "Call your local county assistance office and provide documentation of the housing emergency.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-emergency-shelter-allowance-esa.html"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-emergency-shelter-allowance-esa.html",
+        "contactPhone": "1-800-692-7462"
       }
     ],
     "Disability & Special Needs Services": [
@@ -333,25 +385,29 @@
         "title": "Intellectual Disabilities & Autism Services",
         "description": "Pennsylvania resources and service pathways for individuals with intellectual disabilities and autism.",
         "nextSteps": "Contact your county MH/ID office and request supports coordination.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/programs-services/intellectual-disabilities.html"
+        "officialLink": "https://www.pa.gov/agencies/dhs/programs-services/intellectual-disabilities.html",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Request a Medicaid Community Living Waiver",
         "description": "Waiver services that support community living for eligible individuals with disabilities.",
         "nextSteps": "Contact ODP or your county program office to start waiver eligibility steps.",
-        "officialLink": "https://www.pa.gov/services/dhs/request-a-medicaid-community-living-waiver"
+        "officialLink": "https://www.pa.gov/services/dhs/request-a-medicaid-community-living-waiver",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Apply for Community HealthChoices (CHC)",
         "description": "Long-term services and supports for eligible adults, including adults with physical disabilities.",
         "nextSteps": "Call your county assistance office to apply and complete eligibility review.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-community-healthchoices.html"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-community-healthchoices.html",
+        "contactPhone": "1-800-692-7462"
       },
       {
         "title": "Apply for Vocational Rehabilitation Services",
         "description": "Employment and independent-living supports for Pennsylvanians with disabilities.",
         "nextSteps": "Apply online or contact your local OVR district office.",
-        "officialLink": "https://www.pa.gov/services/dli/apply-for-vocational-rehabilitation-services.html"
+        "officialLink": "https://www.pa.gov/services/dli/apply-for-vocational-rehabilitation-services.html",
+        "contactPhone": "717-787-5279"
       }
     ],
     "Legal & Advocacy Support": [
@@ -359,19 +415,23 @@
         "title": "Older Pennsylvanians Legal Assistance Program",
         "description": "Free legal services for eligible older adults, including advice and representation.",
         "nextSteps": "Contact the program through the Aging service page to discuss your legal issue.",
-        "officialLink": "https://www.pa.gov/services/aging/apply-for-the-older-pennsylvanians-legal-assistance-program"
+        "officialLink": "https://www.pa.gov/services/aging/apply-for-the-older-pennsylvanians-legal-assistance-program",
+        "contactPhone": "1-800-490-8505"
       },
       {
         "title": "File a Discrimination Complaint (PHRC)",
         "description": "File complaints related to discrimination in employment, housing, education, and public spaces.",
         "nextSteps": "Contact PHRC and submit the applicable complaint intake materials.",
-        "officialLink": "https://www.pa.gov/agencies/phrc/programs-and-services/file-a-complaint.html"
+        "officialLink": "https://www.pa.gov/agencies/phrc/programs-and-services/file-a-complaint.html",
+        "contactPhone": "717-787-4410"
       },
       {
         "title": "Consumer Complaints",
         "description": "Find complaint pathways for utilities, financial services, insurance, and more.",
         "nextSteps": "Choose the complaint type on the statewide portal and submit required details.",
-        "officialLink": "https://www.pa.gov/consumer-complaints"
+        "officialLink": "https://www.pa.gov/consumer-complaints",
+        "contactPhone": "1-866-722-6675",
+        "contactEmail": "consumer@pa.gov"
       }
     ],
     "Transportation Assistance": [
@@ -379,19 +439,22 @@
         "title": "Apply for Find My Ride Transportation Assistance",
         "description": "Apply online for low-cost transportation programs for seniors, people with disabilities, and Medical Assistance recipients.",
         "nextSteps": "Use Find My Ride Apply and select your county providers.",
-        "officialLink": "https://www.pa.gov/services/penndot/apply-for-the-find-my-ride-transportation-assistance-program"
+        "officialLink": "https://www.pa.gov/services/penndot/apply-for-the-find-my-ride-transportation-assistance-program",
+        "contactPhone": "717-787-2838"
       },
       {
         "title": "Schedule a Ride with Find My Ride",
         "description": "Find local shared-ride and fixed-route transportation services in Pennsylvania.",
         "nextSteps": "Schedule online or contact your county transportation provider.",
-        "officialLink": "https://www.pa.gov/services/penndot/schedule-a-ride-with-the-find-my-ride-transportation-assistance-program"
+        "officialLink": "https://www.pa.gov/services/penndot/schedule-a-ride-with-the-find-my-ride-transportation-assistance-program",
+        "contactPhone": "717-787-2838"
       },
       {
         "title": "Transit Options for Seniors and Persons with Disabilities",
         "description": "Program details for free transit and discounted shared-ride options.",
         "nextSteps": "Review eligibility and contact your local transit operator for enrollment.",
-        "officialLink": "https://www.pa.gov/en/agencies/penndot/traveling-in-pa/public-transit-options/seniors-and-persons-with-disabilities.html"
+        "officialLink": "https://www.pa.gov/en/agencies/penndot/traveling-in-pa/public-transit-options/seniors-and-persons-with-disabilities.html",
+        "contactPhone": "717-787-2838"
       }
     ],
     "Caregiver Education": [
@@ -399,19 +462,22 @@
         "title": "PA CareKit",
         "description": "Caregiving education tools, planning resources, and self-guided support.",
         "nextSteps": "Use PA CareKit resources and complete the needs quiz for personalized guidance.",
-        "officialLink": "https://www.pa.gov/agencies/aging/pa-carekit"
+        "officialLink": "https://www.pa.gov/agencies/aging/pa-carekit",
+        "contactPhone": "1-800-490-8505"
       },
       {
         "title": "Apply for the Caregiver Support Program",
         "description": "Program that includes caregiver education, training, respite, and care management.",
         "nextSteps": "Find your local Area Agency on Aging and request caregiver program enrollment.",
-        "officialLink": "https://www.pa.gov/services/aging/apply-for-the-caregiver-support-program"
+        "officialLink": "https://www.pa.gov/services/aging/apply-for-the-caregiver-support-program",
+        "contactPhone": "1-800-490-8505"
       },
       {
         "title": "Caregiver Support Program Overview",
         "description": "Learn eligibility and available caregiver training and support services.",
         "nextSteps": "Review program details and contact your local AAA for next steps.",
-        "officialLink": "https://www.pa.gov/agencies/aging/aging-programs-and-services/caregiver-support-program"
+        "officialLink": "https://www.pa.gov/agencies/aging/aging-programs-and-services/caregiver-support-program",
+        "contactPhone": "1-800-490-8505"
       }
     ]
   },
@@ -421,7 +487,8 @@
         "title": "Philadelphia Medical Assistance Enrollment",
         "description": "County assistance offices can help with Medical Assistance applications.",
         "nextSteps": "Use the Medicaid Benefits application and request help with your local office.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-medicaid-benefits.html"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-medicaid-benefits.html",
+        "contactPhone": "1-800-692-7462"
       }
     ],
     "Childcare/ECE": [
@@ -429,7 +496,8 @@
         "title": "Philadelphia Child Care Works",
         "description": "Subsidized child care support for eligible families.",
         "nextSteps": "Contact your ELRC to confirm eligibility and start an application.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-child-care-works-subsidized-child-care"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-child-care-works-subsidized-child-care",
+        "contactPhone": "1-800-692-7462"
       }
     ],
     "School Support": [
@@ -437,7 +505,8 @@
         "title": "Special Education ConsultLine",
         "description": "Statewide support to navigate IEPs and school services.",
         "nextSteps": "Call ConsultLine and prepare your child's school details.",
-        "officialLink": "https://www.pa.gov/services/education/call-the-special-education-in-pa-consultline"
+        "officialLink": "https://www.pa.gov/services/education/call-the-special-education-in-pa-consultline",
+        "contactPhone": "717-783-6788"
       }
     ],
     "Food & Financial Assistance": [
@@ -445,7 +514,8 @@
         "title": "Philadelphia SNAP Application",
         "description": "Apply for SNAP to support grocery costs.",
         "nextSteps": "Apply online or visit your county assistance office.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-supplemental-nutrition-assistance-program-snap"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-supplemental-nutrition-assistance-program-snap",
+        "contactPhone": "1-800-692-7462"
       }
     ],
     "Mental Health": [
@@ -453,7 +523,8 @@
         "title": "988 Crisis Support",
         "description": "Immediate crisis support for caregivers and youth.",
         "nextSteps": "Call or text 988 anytime for confidential support.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder/988"
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder/988",
+        "contactPhone": "988"
       }
     ],
     "After-school": [
@@ -461,7 +532,8 @@
         "title": "21st Century Community Learning Centers",
         "description": "After-school and summer learning programs supported by PDE.",
         "nextSteps": "Ask your school about 21st CCLC programs in Philadelphia.",
-        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/21st-century-community-learning-centers.html"
+        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/21st-century-community-learning-centers.html",
+        "contactPhone": "717-783-6788"
       }
     ],
     "Employment & Training": [
@@ -469,7 +541,8 @@
         "title": "PA CareerLink for Philadelphia",
         "description": "Job search support and training opportunities for caregivers.",
         "nextSteps": "Find your local PA CareerLink office and schedule an intake.",
-        "officialLink": "https://www.pa.gov/services/dli/find-jobs-with-pa-careerlink-.html"
+        "officialLink": "https://www.pa.gov/services/dli/find-jobs-with-pa-careerlink-.html",
+        "contactPhone": "717-787-5279"
       }
     ]
   },
@@ -479,7 +552,8 @@
         "title": "Allegheny Medical Assistance Enrollment",
         "description": "Medical Assistance applications for families and caregivers.",
         "nextSteps": "Apply online and contact your county assistance office for help.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-medicaid-benefits.html"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-medicaid-benefits.html",
+        "contactPhone": "1-800-692-7462"
       }
     ],
     "Childcare/ECE": [
@@ -487,7 +561,8 @@
         "title": "Allegheny Child Care Works",
         "description": "Subsidized child care support for eligible families.",
         "nextSteps": "Connect with the ELRC serving Allegheny County.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-child-care-works-subsidized-child-care"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-child-care-works-subsidized-child-care",
+        "contactPhone": "1-800-692-7462"
       }
     ],
     "School Support": [
@@ -495,7 +570,8 @@
         "title": "Special Education ConsultLine",
         "description": "Statewide guidance on IEPs, evaluations, and family rights.",
         "nextSteps": "Call ConsultLine to discuss your school-related concerns.",
-        "officialLink": "https://www.pa.gov/services/education/call-the-special-education-in-pa-consultline"
+        "officialLink": "https://www.pa.gov/services/education/call-the-special-education-in-pa-consultline",
+        "contactPhone": "717-783-6788"
       }
     ],
     "Food & Financial Assistance": [
@@ -503,7 +579,8 @@
         "title": "Allegheny SNAP Application",
         "description": "Apply for SNAP to help with food costs.",
         "nextSteps": "Apply online or visit your county assistance office.",
-        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-supplemental-nutrition-assistance-program-snap"
+        "officialLink": "https://www.pa.gov/services/dhs/apply-for-the-supplemental-nutrition-assistance-program-snap",
+        "contactPhone": "1-800-692-7462"
       }
     ],
     "Mental Health": [
@@ -511,7 +588,8 @@
         "title": "988 Crisis Support",
         "description": "Immediate crisis support for caregivers and youth.",
         "nextSteps": "Call or text 988 anytime for confidential support.",
-        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder/988"
+        "officialLink": "https://www.pa.gov/agencies/dhs/resources/mental-health-substance-use-disorder/988",
+        "contactPhone": "988"
       }
     ],
     "After-school": [
@@ -519,7 +597,8 @@
         "title": "21st Century Community Learning Centers",
         "description": "After-school and summer learning programs supported by PDE.",
         "nextSteps": "Ask your school about 21st CCLC programs in Allegheny County.",
-        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/21st-century-community-learning-centers.html"
+        "officialLink": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/21st-century-community-learning-centers.html",
+        "contactPhone": "717-783-6788"
       }
     ],
     "Employment & Training": [
@@ -527,7 +606,8 @@
         "title": "PA CareerLink for Allegheny County",
         "description": "Job search support and training opportunities for caregivers.",
         "nextSteps": "Find your local PA CareerLink office and schedule an intake.",
-        "officialLink": "https://www.pa.gov/services/dli/find-jobs-with-pa-careerlink-.html"
+        "officialLink": "https://www.pa.gov/services/dli/find-jobs-with-pa-careerlink-.html",
+        "contactPhone": "717-787-5279"
       }
     ]
   }

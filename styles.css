@@ -367,6 +367,20 @@ input:focus {
   color: var(--primary-dark);
 }
 
+.contact-info {
+  margin-top: 6px;
+}
+
+.contact-list {
+  margin: 6px 0 0;
+  padding-left: 18px;
+  color: #243b53;
+}
+
+.contact-list li {
+  margin-bottom: 4px;
+}
+
 .disclaimer {
   margin-top: 16px;
   padding: 12px;

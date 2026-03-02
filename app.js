@@ -18,6 +18,7 @@ const elements = {
   intakeForm: document.getElementById("intake-form"),
   planList: document.getElementById("plan-list"),
   planSummary: document.getElementById("plan-summary"),
+  returnHome: document.getElementById("return-home"),
   printPlan: document.getElementById("print-plan"),
   emailTemplate: document.getElementById("email-template"),
   callTemplate: document.getElementById("call-template"),
@@ -90,6 +91,7 @@ const translations = {
     caregiverStayingHome: "Staying home",
     generatePlan: "Generate plan",
     planTitle: "Personalized Support Plan",
+    returnHome: "Return to homepage",
     downloadPdf: "Download PDF",
     generateEmail: "Generate email to agency",
     generateCall: "Generate phone call script",
@@ -106,6 +108,9 @@ const translations = {
     planWhy: "Why this might apply:",
     planNextSteps: "Next steps:",
     planOfficialLink: "Official link:",
+    planContact: "Contact info:",
+    contactPhone: "Phone:",
+    contactEmail: "Email:",
     summaryCounty: "County",
     summaryAge: "Care recipient",
     summaryStatus: "Caregiver status",
@@ -167,6 +172,7 @@ const translations = {
     caregiverStayingHome: "En casa",
     generatePlan: "Generar plan",
     planTitle: "Plan de apoyo personalizado",
+    returnHome: "Volver al inicio",
     downloadPdf: "Descargar PDF",
     generateEmail: "Generar correo a la agencia",
     generateCall: "Generar guion de llamada",
@@ -183,6 +189,9 @@ const translations = {
     planWhy: "Por qué podría aplicar:",
     planNextSteps: "Próximos pasos:",
     planOfficialLink: "Enlace oficial:",
+    planContact: "Información de contacto:",
+    contactPhone: "Teléfono:",
+    contactEmail: "Correo electrónico:",
     summaryCounty: "Condado",
     summaryAge: "Persona bajo cuidado",
     summaryStatus: "Situación del cuidador",
@@ -449,8 +458,22 @@ function renderPlan(selections) {
   const planWhy = t("planWhy");
   const planNextSteps = t("planNextSteps");
   const planOfficialLink = t("planOfficialLink");
+  const planContact = t("planContact");
+  const contactPhoneLabel = t("contactPhone");
+  const contactEmailLabel = t("contactEmail");
 
   planItems.forEach((item) => {
+    const contactPhone = item.contactPhone || item.contact?.phone;
+    const contactEmail = item.contactEmail || item.contact?.email;
+    const contactLines = [];
+    if (contactPhone) {
+      contactLines.push(`<li><strong>${contactPhoneLabel}</strong> ${contactPhone}</li>`);
+    }
+    if (contactEmail) {
+      contactLines.push(
+        `<li><strong>${contactEmailLabel}</strong> <a href="mailto:${contactEmail}">${contactEmail}</a></li>`
+      );
+    }
     const card = document.createElement("div");
     card.className = "plan-item";
     card.innerHTML = `
@@ -458,6 +481,12 @@ function renderPlan(selections) {
       <p><strong>${planWhy}</strong> ${item.description}</p>
       <p class="next-steps"><strong>${planNextSteps}</strong> ${item.nextSteps}</p>
       <p class="next-steps"><strong>${planOfficialLink}</strong> <a href="${item.officialLink}" target="_blank" rel="noopener">${item.officialLink}</a></p>
+      <div class="contact-info">
+        <p class="next-steps"><strong>${planContact}</strong></p>
+        <ul class="contact-list">
+          ${contactLines.join("")}
+        </ul>
+      </div>
     `;
     elements.planList.appendChild(card);
   });
@@ -610,6 +639,10 @@ function init() {
   elements.printPlan.addEventListener("click", () => window.print());
   elements.emailTemplate.addEventListener("click", () => openModal("email"));
   elements.callTemplate.addEventListener("click", () => openModal("call"));
+  elements.returnHome.addEventListener("click", () => {
+    showSection(elements.welcome);
+    elements.startButton.focus();
+  });
   elements.closeModal.addEventListener("click", closeModal);
   elements.modal.addEventListener("click", (event) => {
     if (event.target === elements.modal) closeModal();
